@@ -32,7 +32,7 @@ int main()
 	cin >> num;
 	Object->DispayingStars(num);
 
-	delete Object, Object = NULL; // clearing dynamic memory and nulling address pointers
+	delete Object, Object = NULL; // clearing dynamic memory and nulling address pointers 
 	
 	system("pause");
 	return 0;

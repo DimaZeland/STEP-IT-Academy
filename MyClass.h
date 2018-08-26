@@ -32,7 +32,7 @@ public:
 	struct Car
 	{
 	public:
-		// constructor & destructor
+		// constructor & destructor 
 		Car() : manufacturer(" "), yearRelease(0) {}
 		Car(std::string& Manufactured, int& YearsRelease) : manufacturer(Manufactured), yearRelease(YearsRelease) {} // overloaded constructor
 		Car(const Car& rhs) : manufacturer(rhs.manufacturer), yearRelease(rhs.yearRelease) {} // overload copy-constructor
@@ -42,8 +42,3 @@ public:
 	};
 private:
 };
-
-
-
-
-

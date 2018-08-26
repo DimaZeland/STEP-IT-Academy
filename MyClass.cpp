@@ -159,7 +159,7 @@ MyClass::ReadingWordsS(void)const { // counting the number of entered words (usi
 }
 
 int
-MyClass::Sum2Number(int & a, int& b) const { // return the sum of a range of two numbers
+MyClass::Sum2Number(int & a, int& b) const { // return the sum of a range of two numbers 
 
 	int* sum = new int(0);
 	for (int i = a; i <= b; ++i)
