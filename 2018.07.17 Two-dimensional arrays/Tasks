@@ -1,0 +1,7 @@
+1. In a two-dimensional array of integers, calculate:
+• The sum of all elements of the array
+• The arithmetic mean of all elements in the array
+• The minimum element
+• The maximum element
+2. Create an array M on N. Fill in with random values. We introduce k. All items in the column st must be increased by 10 times
+3. 2. Create an array M on N. Fill in with random values. Output all the items in duplicate strings. If not use
