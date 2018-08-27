@@ -1,0 +1,26 @@
+Sorting and searching algorithms
+
+Create an array. Using the user interface (menus) and previously studied algorithms to realize the ability to:
+Menu 1
+- Fill an array with random numbers
+- Fill the array manually
+Menu2.
+- Sort Array:
+1. Sorting by insertion
+a. On growth
+b. By recession
+2. Sorted by choice
+a. On growth
+b. By recession
+3. Sorting the bubble
+a. On growth
+b. By recession
+4. Sort by shaker
+a. On growth
+b. By recession
+5. Go back
+- Find an item:
+1. Algorithm of binary search (if the array is not sorted, then ask to first sort it)
+2. Algorithm of the linear vocation (overburden)
+3. Go back
+- Go back
