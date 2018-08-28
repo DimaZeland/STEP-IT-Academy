@@ -1,0 +1,5 @@
+1. Create an array of 5 by 5. Find the maximum and before the maximal elements of each line.
+2. Create an arbitrary size array. Fill in with random numbers. Find the number of rows, where all numbers are ascending
+3. Create an arbitrary size array. Fill in with random numbers. Find all columns, where all elements go down the decay.
+4. Create an arbitrary size array. Fill in random numbers. Change the maximum and minimum elements in each column.
+5. Create an arbitrary size array. Fill with random numbers. Swap the left and right sides of the matrix
