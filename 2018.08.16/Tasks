@@ -1,8 +1,0 @@
-1. Create a two-dimensional array. Fill in with random numbers. Sort each line by growth.
-2. Create a two-dimensional array. Fill in with random numbers. Find the arithmetic mean of the matrix diagonals
-3. Create a two-dimensional array. Fill in with random numbers. Find the number that is repeated most times.
-4. Given an array of size N. 
-Find two adjacent elements whose sum is maximal, and deduce these elements in the order of increasing their indexes.
-5. Given an array of N. Find the number of its last local maximum 
-(the local maximum is an element that is larger than any of its neighbors).
-6. Fulfill the tasks discussed in pairs.
