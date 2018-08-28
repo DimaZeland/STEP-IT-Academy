@@ -1,0 +1,19 @@
+1. Write a function that outputs a horizontal line of stars of a certain length, 
+and a function that outputs a vertical line of a certain height (auxiliary tasks).
+Using these functions, you can build similar drawings (main tasks) on the screen:
+a. **********
+b. *******
+c. ****
+d
+e. ********
+f *
+g. *
+h *
+i *************
+j *
+k *
+l *
+m *******************
+n
+2. Write a function that returns the truth if the transmitted value is positive and a lie, if negative.
+3. Write a function that elevates the real number x to the power n (n is an integer) and returns the elevated number to the power.
