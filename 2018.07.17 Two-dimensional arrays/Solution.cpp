@@ -76,13 +76,13 @@ int main(int argc, char* argv[])
 
 	Array * Object = new Array;
 	Object->RandompArr(); // populating an array with random values
-	std::cout << "\nМассив pArr[5][5], заполненный случайными значениями:\n";
+	std::cout << "\An array pArr[5][5], filled with random values:\n";
 	Object->OutputpArr(); // output of array element values
 	Object->AnalyticspArr(); // output of the sum of elements, average arithmetic elements, minimum and maximum element
-	std::cout << "\nВывод марных строк массива pArr[5][5]:\n";
+	std::cout << "\nOutputting pair rows of an array pArr[5][5]:\n";
 	Object->ShowPairRowspArr(); // output of pair rows of an array
 	Object->RewritepArr(); // increase of all elements in the given column 10 times
-	std::cout << "\nВывод значений елементов массива pArr[5][5] после увеличения в заданном столбце:\n";
+	std::cout << "\nDisplaying the values of array elements pArr[5][5] РїРѕСЃР»Рµ СѓРІРµР»РёС‡РµРЅРёСЏ РІ Р·Р°РґР°РЅРЅРѕРј СЃС‚РѕР»Р±С†Рµ:\n";
 	Object->OutputpArr(); // output of array element values
 	
 	delete Object; // clearing the heap memory area from storing the value of an Array object
