@@ -1,0 +1,6 @@
+1. Create a two-dimensional array of arbitrary size. Fill in with random values.
+Print the number of the last line, where there are only paired items, if there is nothing like zero.
+2. Create a two-dimensional array of arbitrary size. Fill in with random values. 
+Find all the lines where all the elements go down the decay
+3. Create a two-dimensional array of arbitrary size. 
+Fill in with random values. Swap lines with minimum and maximum items
