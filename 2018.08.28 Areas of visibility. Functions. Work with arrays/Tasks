@@ -1,0 +1,6 @@
+1. Write a calculator whose work will be based on the functions. 
+Enter the numbers and choose a mathematical operation to execute in the dialog style (ask the user, display the menu). 
+The program provides for avoiding errors (division by zero, etc.). Fantasy and design of the menu - appreciated and welcomed !!!
+Note! Each arithmetic operation is described by a separate function.
+The construction of the menu itself is also made in a separate function. Converter.
+2. Write a game of crosshairs-nicks.
