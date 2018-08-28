@@ -4,16 +4,16 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-
 void PaintStolbec(int = 0); // drawing a vertical line from rows
 void PaintStroka(int = 0); // drawing a horizontal line from rows
 inline bool Result(double&); // return 1 if the argument is positive and 0 if the argument is negative.
 int NumberToStepin(int&, int&); // product of degree
 
 int main() {
+	
 	setlocale(LC_ALL, "RUS");
 
-	// Task ¹ 1
+	// Task 1
 	cout << "Task 1.\n";
 	cout << "a. ";
 	PaintStroka(10);
@@ -42,7 +42,7 @@ int main() {
 	PaintStroka(19);
 	cout << "a.\n";
 
-	// Task ¹ 2
+	// Task 2
 	cout << "Task 2.\n";
 	cout << "\nEnter the number: ";
 	double *number = new double (0);
@@ -51,7 +51,7 @@ int main() {
 	delete number;
 	number = NULL;
 
-	// Task ¹ 3
+	// Task 3
 	cout << "Task 3.\n";
 	cout << "\nEnter the number and stepin: ";
 	int number1 = 0, stepin = 0;
