@@ -1,7 +1,7 @@
 #include "Menu.h"
 
 void
-Menu::Calculator(void) const{ // calculator
+Menu::Calculator(void) const { // calculator
 	bool flag = true;
 	while (flag) {
 		system("cls");
@@ -127,7 +127,7 @@ Menu::ConverterWeight(void)const { // weight converter
 }
 
 void
-Menu::ProgramInterface() const{ // program interface
+Menu::ProgramInterface() const { // program interface
 
 	unsigned short action = 0;
 	float distance = 0.0f, litersPer100km = 0.0f, oilPrice = 0.0f;
@@ -150,6 +150,9 @@ Menu::ProgramInterface() const{ // program interface
 			cout << "\nEnter the distance, the consumption of gasoline (liters per 100 km), the cost of a liter of gasoline:";
 			cin >> distance >> litersPer100km >> oilPrice;
 			cout << "\nThe cost of the trip is " << Menu::CostTrip(distance, litersPer100km, oilPrice) << "$\n";
+			break;
+		case 0:
+			cout << "\nThe exit was successful! Bye!\n";
 			break;
 		default:
 			cout << "\nInvalid Input!";
