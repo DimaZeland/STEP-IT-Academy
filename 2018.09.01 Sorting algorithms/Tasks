@@ -1,0 +1,21 @@
+1. Implement three functions for sorting an array (bubble, inserts, selection), whose arguments include a template array, its size and boolean variables,
+the value of which will depend on the sorting order (from the smallest to the largest and vice versa).
+
+2. To write the program "achievement". The user enters 10 student ratings (12 ball system). To realize
+menu for user
+ Output estimates (output of the array contents)
+ Passing the exam (the user enters the array element number and a new rating
+ Whether a scholarship is issued (the scholarship goes out if the average score is not lower than 10.7)
+
+3. An array of 20 integers with values ​​from 1 to 20 is given.
+Needed:
+ write a function that spreads elements of mass
+gray in an arbitrary manner;
+
+ create a random number from the same range and find it
+position of this random number in the array;
+
+ sort the elements of the array, located next
+va from the position found in descending order, and elements
+array to the right of the position found
+ascending.
