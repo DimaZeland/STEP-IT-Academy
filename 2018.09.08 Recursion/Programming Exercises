@@ -1,0 +1,8 @@
+1. Given two integers A and B (each in a separate line).
+Print all numbers from A to B inclusive, in ascending order, if A <B, or in decreasing order otherwise.
+
+2. Given a natural number N. Print all of its digits one by one, in the reverse order, separated by spaces or new lines.
+
+3. Given a natural number N. Output all its digits one at a time, in the usual order, separated by spaces or new lines.
+
+4. Write a function that displays the first 10 numbers of the Fibonacci series in the console.
