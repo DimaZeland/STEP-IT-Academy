@@ -1,0 +1,11 @@
+1. Write a function that receives a one-dimensional array and returns the link to the smallest element of the array.
+ Use this function to display the smallest element and double the smallest element of the array.
+
+2. Write a function for dividing two transmitted integer variables. The result of the operation is returned to the third parameter of the function, and the mark on the correctness of the operation as a return value.
+Note! Invalid is considered a division of 0. In this case, the function returns false.
+
+3. An array of integers. Using pointers, change the elements of the array with even ones
+and odd indices (that is, those elements of the array that stand in even places, change with elements that stand in odd places).
+
+4. There are two arrays arranged in ascending order:
+A [n] and B [m]. Form an array C [n + m], consisting of elements of arrays A and B, arranged in ascending order.
