@@ -1,0 +1,17 @@
+Exercise 1:
+Two arrays are given: A [M] and B [N] (M and N are entered from the keyboard). 
+It is necessary to create a third array of the minimum possible size, in which it is necessary to collect elements of array 
+A that are not included in array B, without repetitions.
+Activity 2:
+Two arrays are given: A [M] and B [N] (M and N are entered from the keyboard). 
+It is necessary to create a third array of the minimum possible size, in which it is necessary to collect elements of arrays A and B, 
+which are not common to them, without repetition.
+Activity 3:
+Two arrays are given: A [M] and B [N] (M and N are entered from the keyboard). 
+It is necessary to create a third array of the minimum possible size, in which it is necessary to collect elements of both arrays.
+Assignment 4:
+Two arrays are given: A [M] and B [N] (M and N are entered from the keyboard). 
+It is necessary to create a third array of the minimum possible size, in which it is necessary to collect common elements of two arrays without repetitions.
+Activity 5:
+An array is given: A [M] (M is entered from the keyboard). Even or odd values must be removed from the array. 
+The user enters data into the array, and also by means of the menu decides what to remove.
