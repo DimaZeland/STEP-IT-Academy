@@ -1,3 +1,16 @@
+/*
+Mark all the desired projects in solution explorer.
+
+Press Alt-F7 or right click in solution explorer and select "Properties"
+
+Configurations:All Configurations
+
+Click on the Preprocessor Definitions line to invoke its editor
+
+Choose Edit...
+
+Copy "_CRT_SECURE_NO_WARNINGS" into the Preprocessor Definitions white box on the top.
+*/
 #include <iostream>
 
 using namespace std;
