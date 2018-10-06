@@ -1,0 +1,6 @@
+A sequence of N words is introduced. Create string from:
+1. All words entered, words in the text to be divided by spaces (or commas);
+2. Words having the same first and last letters;
+3. Words with more than two vowels;
+4. All words, rejecting the first and last letter of words.
+*Use the library functions strcat ();
