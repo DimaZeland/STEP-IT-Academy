@@ -1,0 +1,7 @@
+Describe the structure of "Car".
+Required field of structure:
+Year of issue, color, brand, brand.
+You can add something to your own.
+The color and brand must be executed using enum.
+Declare a dynamic array of cars and fill in each auto data.
+The program must add, remove, edit and sort cars by release date (by any algorithm).
