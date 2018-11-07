@@ -1,0 +1,1334 @@
+Article;Price;Amount;Manufacturer;Model
+1;4686;4;4Good;4Good People G410
+2;6598.9;15;Acer;Acer Liquid Z528
+3;1707.2;3;Akai;Akai MPH-345D
+4;7161;8;Alcatel;Alcatel 3c
+5;10033.1;15;Alcatel;Alcatel 3v
+6;9651.4;12;Alcatel;Alcatel 3x
+7;12214.4;15;Alcatel;Alcatel 5
+8;6468;13;Alcatel;Alcatel A3
+9;7139;2;Alcatel;Alcatel A5 LED
+10;12089;7;Alcatel;Alcatel A7 5090Y
+11;913;15;Alcatel;Alcatel One Touch 1016D
+12;979;10;Alcatel;Alcatel One Touch 1020D
+13;1408;11;Alcatel;Alcatel One Touch 1035D
+14;924;2;Alcatel;Alcatel One Touch 1054D
+15;2189;5;Alcatel;Alcatel One Touch 2007D
+16;2002;15;Alcatel;Alcatel One Touch 2008G
+17;2123;11;Alcatel;Alcatel One Touch 2051D
+18;10586.4;2;Alcatel;Alcatel One Touch Idol 4 6055K
+19;10450;8;Alcatel;Alcatel One Touch Idol 5 6058D
+20;1089;4;Alcatel;Alcatel One Touch Pixi 3 3.5 4009D
+21;4576;8;Alcatel;Alcatel One Touch Pixi 4 5 5045D
+22;2739;14;Alcatel;Alcatel One Touch Pixi 4 5010D
+23;6039;13;Alcatel;Alcatel One Touch Pixi 4 6 9001D
+24;5644.1;4;Alcatel;Alcatel One Touch Pixi 4 Plus Power 5023F
+25;15939;13;Alcatel;Alcatel One Touch Pop S9 7050Y
+26;7469;8;Alcatel;Alcatel One Touch Pop Star 5022D
+27;5720;3;Alcatel;Alcatel One Touch Tribe 720
+28;5159;10;Alcatel;Alcatel Pixi 4 6 3G 8050D
+29;13277;4;Alcatel;Alcatel Pop 4 6 7070D
+30;9229;6;Alcatel;Alcatel Pop 4 6 7070X
+31;5819;3;Alcatel;Alcatel Pop 4 Plus 5056D
+32;2728;7;Alcatel;Alcatel U3
+33;3905;2;Alcatel;Alcatel U5
+34;4785;15;Alcatel;Alcatel U5 5044D
+35;4620;3;Apple;Apple iPhone 4S 16GB
+36;5434;8;Apple;Apple iPhone 4S 32GB
+37;5434;15;Apple;Apple iPhone 4S 64GB
+38;6061;6;Apple;Apple iPhone 4S 8GB
+39;7210.5;11;Apple;Apple iPhone 5 16GB
+40;7628.5;4;Apple;Apple iPhone 5 32GB
+41;9141;13;Apple;Apple iPhone 5 64GB
+42;7210.5;14;Apple;Apple iPhone 5C 16GB
+43;7733;5;Apple;Apple iPhone 5C 32GB
+44;7689;13;Apple;Apple iPhone 5C 8GB
+45;9091.5;2;Apple;Apple iPhone 5S 16GB
+46;9614;14;Apple;Apple iPhone 5S 32GB
+47;10345.5;10;Apple;Apple iPhone 5S 64GB
+48;13898.5;7;Apple;Apple iPhone 6 128GB
+49;11440;7;Apple;Apple iPhone 6 16GB
+50;23848;5;Apple;Apple iPhone 6 32GB
+51;13271.5;13;Apple;Apple iPhone 6 64GB
+52;21769;13;Apple;Apple iPhone 6 Plus 128GB
+53;15510;6;Apple;Apple iPhone 6 Plus 16GB
+54;17556;13;Apple;Apple iPhone 6 Plus 64GB
+55;21120;2;Apple;Apple iPhone 6S 128GB
+56;14575;14;Apple;Apple iPhone 6S 16GB
+57;16093;12;Apple;Apple iPhone 6S 32GB
+58;17242.5;6;Apple;Apple iPhone 6S 64GB
+59;27060;2;Apple;Apple iPhone 6S Plus 128GB
+60;18260;4;Apple;Apple iPhone 6S Plus 16GB
+61;37147;8;Apple;Apple iPhone 6S Plus 32GB
+62;23710.5;3;Apple;Apple iPhone 6S Plus 64GB
+63;31141;11;Apple;Apple iPhone 7 128GB
+64;32186;13;Apple;Apple iPhone 7 256GB
+65;27720;6;Apple;Apple iPhone 7 32GB
+66;42240;6;Apple;Apple iPhone 7 Plus 128GB
+67;54989;7;Apple;Apple iPhone 7 Plus 256GB
+68;38390;14;Apple;Apple iPhone 7 Plus 32GB
+69;58080;4;Apple;Apple iPhone 8 256GB
+70;48059;7;Apple;Apple iPhone 8 64GB
+71;67540;10;Apple;Apple iPhone 8 Plus 256GB
+72;54868;12;Apple;Apple iPhone 8 Plus 64GB
+73;26880.7;13;Apple;Apple iPhone SE 128GB
+74;15570.5;7;Apple;Apple iPhone SE 16GB
+75;19045.4;12;Apple;Apple iPhone SE 32GB
+76;18705.5;3;Apple;Apple iPhone SE 64GB
+77;78529;5;Apple;Apple iPhone X 256GB
+78;69839;7;Apple;Apple iPhone X 64GB
+79;3237.3;13;Archos;Archos 40 Neon
+80;4965.4;2;Archos;Archos 50 Cobalt
+81;11550;3;Archos;Archos 50 Diamond
+82;5341.6;2;Archos;Archos 50 Platinum 4G
+83;6538.4;9;Archos;Archos 50 Power
+84;5863;3;Archos;Archos 50 Titanium
+85;10109;2;Archos;Archos 50d Oxygen
+86;9229;6;Archos;Archos 50dc Sense
+87;9064;15;Archos;Archos 50f Helium
+88;6011.5;3;Archos;Archos 50P Core
+89;6634.1;15;Archos;Archos 55 Cobalt Plus
+90;7997;7;Archos;Archos 55 Helium+
+91;7458;8;Archos;Archos 55b Platinum 8GB
+92;9889;9;Archos;Archos 55dc Sense
+93;7469;3;Archos;Archos 55P Core
+94;10897.7;10;Archos;Archos Sense 47X
+95;15816.9;6;Archos;Archos Sense 50X
+96;5478;11;ARK;ARK Benefit M1
+97;1309;7;ARK;ARK Benefit S453
+98;1529;9;ARK;ARK Benefit S502
+99;3058;3;ARK;ARK Benefit S504
+100;1749;14;ARK;ARK Benefit U242
+101;1309;10;ARK;ARK Benefit U243
+102;1529;12;ARK;ARK Benefit U244
+103;1529;14;ARK;ARK Benefit U281
+104;2178;13;ARK;ARK Benefit V1
+105;6017;10;ARK;ARK Note1
+106;1969;5;ARK;ARK Power F1
+107;922.9;4;ARK;ARK U241
+108;649;6;ARK;ARK U3
+109;5016;14;ARK;ARK Wizard 1
+110;5885;11;ARK;ARK Zoji Z6
+111;24739;12;Asus;Asus Zenfone 2 16GB ZE551ML
+112;15389;2;Asus;Asus Zenfone 2 32GB ZE551ML
+113;13046;8;Asus;Asus Zenfone 2 Laser 16GB ZE500KL
+114;12089;3;Asus;Asus Zenfone 2 Laser 16GB ZE550KL
+115;10989;2;Asus;Asus Zenfone 2 Laser 32GB ZE500KL
+116;12045;9;Asus;Asus Zenfone 2 Laser 32GB ZE550KL
+117;21989;14;Asus;Asus Zenfone 2 Zoom 16GB ZX550
+118;14507.9;3;Asus;Asus Zenfone 3 32GB ZE520KL
+119;21549;2;Asus;Asus Zenfone 3 32GB ZE552KL
+120;20603;13;Asus;Asus Zenfone 3 64GB ZE520KL
+121;21109;5;Asus;Asus Zenfone 3 64GB ZE552KL
+122;28158.9;15;Asus;Asus Zenfone 3 Deluxe 64GB ZS550KL
+123;44026.4;4;Asus;Asus Zenfone 3 Deluxe 64GB ZS570KL
+124;12089;14;Asus;Asus Zenfone 3 Laser 16GB ZC551KL
+125;10989;14;Asus;Asus Zenfone 3 Laser 32GB ZC551KL
+126;10219;15;Asus;Asus Zenfone 3 Max 16GB ZC520TL
+127;12793;2;Asus;Asus Zenfone 3 Max 32GB ZC520TL
+128;13189;7;Asus;Asus Zenfone 3 Max 32GB ZC553KL
+129;25837.9;15;Asus;Asus Zenfone 3 Zoom 64GB ZE553KL
+130;23045;2;Asus;Asus Zenfone 4 64GB ZE554KL
+131;10373;6;Asus;Asus Zenfone 4 Max 16GB ZC520KL
+132;11968;5;Asus;Asus Zenfone 4 Max 16GB ZC554KL
+133;11583;14;Asus;Asus Zenfone 4 Max 32GB ZC520KL
+134;14289;10;Asus;Asus Zenfone 4 Max 32GB ZC554KL
+135;13739;6;Asus;Asus Zenfone 4 Max Plus 32GB ZC550TL
+136;48169;11;Asus;Asus Zenfone 4 Pro 64GB ZS551KL
+137;11539;5;Asus;Asus Zenfone 4 Selfie 32GB ZB553KL
+138;14617.9;4;Asus;Asus Zenfone 4 Selfie 64GB ZD553KL
+139;9768;9;Asus;Asus Zenfone 4 Selfie Lite 16GB ZB553KL
+140;20515;6;Asus;Asus Zenfone 4 Selfie Pro 64GB ZD552KL
+141;58019.5;13;Asus;Asus Zenfone AR 128GB ZS571KL
+142;5049;7;Asus;Asus ZenFone Go 16GB ZB500KL
+143;9361;14;Asus;Asus Zenfone Go 16GB ZB552KL
+144;8789;13;Asus;Asus ZenFone Go 32GB ZB500KL
+145;4884;15;Asus;Asus Zenfone Go 8GB ZB452KG
+146;6039;15;Asus;Asus ZenFone Go 8GB ZB500KG
+147;8789;12;Asus;Asus Zenfone Go 8GB ZB690KG
+148;5487.9;13;Asus;Asus Zenfone Go 8GB ZC500TG
+149;7095;7;Asus;Asus Zenfone Live 16GB ZB501KL
+150;8668;13;Asus;Asus Zenfone Live 32GB ZB501KL
+151;16489;14;Asus;Asus Zenfone Max Plus M1 16GB ZB570TL
+152;14168;5;Asus;Asus Zenfone Max Plus M1 32GB ZB570TL
+153;21989;5;Asus;Asus Zenfone Zoom 128GB ZX551ML
+154;21329;6;Asus;Asus Zenfone Zoom 64GB ZX551ML
+155;4939;11;Black Fox;Black Fox BMM 431
+156;9889;3;BlackBerry;BlackBerry 9900 Bold
+157;14729;8;BlackBerry;BlackBerry DTEK50
+158;25177.9;11;BlackBerry;BlackBerry DTEK60
+159;43989;8;BlackBerry;BlackBerry Keyone
+160;9887.9;10;BlackBerry;BlackBerry Leap
+161;33550;11;BlackBerry;BlackBerry Motion
+162;16489;12;BlackBerry;BlackBerry Passport
+163;20229;7;BlackBerry;BlackBerry Priv
+164;10989;13;BlackBerry;BlackBerry Q10
+165;16379;11;BlackBerry;BlackBerry Q20 Classic
+166;8789;2;BlackBerry;BlackBerry Z10
+167;9889;9;BlackBerry;BlackBerry Z30
+168;7480;11;Blackview;Blackview BV5000
+169;11935;7;Blackview;Blackview BV6000
+170;8668;9;Blackview;Blackview BV6000s
+171;9295;3;Blackview;Blackview BV7000
+172;12650;3;Blackview;Blackview BV7000 Pro
+173;17050;12;Blackview;Blackview BV8000 Pro
+174;11990;14;Blackview;Blackview S8
+175;18799;9;BQ;BQ Aquaris M5 16GB
+176;24849;13;BQ;BQ Aquaris M5.5 16GB
+177;10989;7;BQ;BQ Aquaris U
+178;10219;6;BQ;BQ Aquaris U Plus 16GB
+179;13189;6;BQ;BQ Aquaris V 16GB
+180;15279;4;BQ;BQ Aquaris V Plus
+181;19195;13;BQ;BQ Aquaris X
+182;19798.9;5;BQ;BQ Aquaris X5
+183;1419;4;BQ;BQ BQ-1402 Lyon
+184;2739;6;BQ;BQ BQ-1565 Hong Kong
+185;1529;10;BQ;BQ BQ-1800 Respect
+186;1529;9;BQ;BQ BQ-1801 Bangkok
+187;1263.9;11;BQ;BQ BQ-1810 Pixel
+188;1043.9;9;BQ;BQ BQ-1840 Energy
+189;1890.9;10;BQ;BQ BQ-2002 Trust
+190;2739;4;BQ;BQ BQ-2267 Nokianvirta
+191;2189;10;BQ;BQ BQ-2300 Comfort
+192;2552;3;BQ;BQ BQ-2405 Dream
+193;1252.9;10;BQ;BQ BQ-2411 Swift L
+194;1450.9;12;BQ;BQ BQ-2412 Quattro
+195;1155;13;BQ;BQ BQ-2424 Nikko
+196;1395.9;10;BQ;BQ BQ-2425 Charger
+197;1340.9;11;BQ;BQ BQ-2427 Boom L
+198;1109.9;12;BQ;BQ BQ-2428 Tank
+199;1098.9;8;BQ;BQ BQ-2431 Step L+
+200;1527.9;4;BQ;BQ BQ-2805 Boom XL
+201;1813.9;13;BQ;BQ BQ-2806 Energy XL
+202;1296.9;15;BQ;BQ BQ-2811 Swift XL
+203;1010.9;9;BQ;BQ BQ-2831 Step XL+
+204;2332;3;BQ;BQ BQ-3201 Option
+205;3069;7;BQ;BQ BQ-4026 UP!
+206;3190;8;BQ;BQ BQ-4072 Strike Mini
+207;3564;14;BQ;BQ BQ-4503 Dubai
+208;6589;10;BQ;BQ BQ-4504 Nice
+209;3518.9;13;BQ;BQ BQ-4526 Fox
+210;5324;14;BQ;BQ BQ-5000L Trend
+211;5071;6;BQ;BQ BQ-5004 Paris
+212;7689;14;BQ;BQ BQ-5005L Intense
+213;7689;6;BQ;BQ BQ-5007 Rimini
+214;5324;7;BQ;BQ BQ-5020 Strike
+215;6039;6;BQ;BQ BQ-5022 Bond
+216;9889;3;BQ;BQ BQ-5032 Element
+217;8239;11;BQ;BQ BQ-5033 Shark
+218;4147;8;BQ;BQ BQ-5035 Velvet
+219;7458;4;BQ;BQ BQ-5037 Strike Power 4G
+220;6391;13;BQ;BQ BQ-5044 Strike LTE
+221;6589;15;BQ;BQ BQ-5050 Strike Selfie
+222;5599;7;BQ;BQ BQ-5054 Crystal
+223;5709;15;BQ;BQ BQ-5057 Strike 2
+224;6479;5;BQ;BQ BQ-5058 Strike Power Easy
+225;6479;5;BQ;BQ BQ-5059 Strike Power
+226;6919;5;BQ;BQ BQ-5070 Magic
+227;6039;2;BQ;BQ BQ-5071 Belief
+228;10989;10;BQ;BQ BQ-5201 Space
+229;9592;7;BQ;BQ BQ-5202 Space Lite
+230;10131;15;BQ;BQ BQ-5203 Vision
+231;6930;10;BQ;BQ BQ-5204 Strike Selfie
+232;8379.8;2;BQ;BQ BQ-5500L Advance
+233;10659;3;BQ;BQ BQ-5504 Strike Selfie Max
+234;7139;15;BQ;BQ BQ-5505 Amsterdam
+235;7139;12;BQ;BQ BQ-5515 Wide
+236;7359;11;BQ;BQ BQ-5520 Mercury
+237;6919;14;BQ;BQ BQ-5521 Strike Power Max
+238;5410.9;11;BQ;BQ BQ-5522 Next
+239;5819;14;BQ;BQ BQ-5525 Practic
+240;5489;11;BQ;BQ BQ-5591 Jeans
+241;16489;6;BQ;BQ BQ-6000L Aurora
+242;9889;10;BQ;BQ BQ-6050 Jumbo
+243;8789;5;BQ;BQ U Lite 4G
+244;10439;8;BQ;BQ U Plus 4G 16GB
+245;11726;11;BQ;BQ U Plus 4G 32GB
+246;3718;9;CATerpillar;CATerpillar B25
+247;5278.9;14;CATerpillar;CATerpillar B30
+248;13190.1;7;CATerpillar;CATerpillar S30
+249;22916.3;13;CATerpillar;CATerpillar S31
+250;17798;12;CATerpillar;CATerpillar S40
+251;32989;13;CATerpillar;CATerpillar S41
+252;46829.2;2;CATerpillar;CATerpillar S60
+253;6259;7;Digma;Digma Citi ATL 4G
+254;5159;2;Digma;Digma Citi Power 4G
+255;2079;15;Digma;Digma Citi Z400 3G
+256;5159;7;Digma;Digma Citi Z560 4G
+257;1859;8;Digma;Digma First XS350 2G
+258;2189;8;Digma;Digma Hit Q400 3G
+259;3630;11;Digma;Digma Hit Q500 3G
+260;638;3;Digma;Digma Linx A177 2G
+261;1419;7;Digma;Digma Linx A200 2G
+262;2088.9;3;Digma;Digma Linx A400 3G
+263;2308.9;15;Digma;Digma Linx A420 3G
+264;3124;4;Digma;Digma Linx A450 3G
+265;3729;11;Digma;Digma Linx A452 3G
+266;4400;5;Digma;Digma Linx A501 4G
+267;2638.9;7;Digma;Digma Linx C500 3G
+268;3289;13;Digma;Digma Vox A10 3G
+269;6061;8;Digma;Digma Vox E502 4G
+270;4807;14;Digma;Digma Vox Fire 4G
+271;4895;8;Digma;Digma Vox Flash 4G
+272;3608;15;Digma;Digma Vox G450 3G
+273;4048;5;Digma;Digma Vox G500 3G
+274;5467;15;Digma;Digma Vox G501 4G
+275;4295.5;8;Digma;Digma Vox S500 3G
+276;4125;8;Digma;Digma Vox S501 3G
+277;4829;15;Digma;Digma Vox S502 3G
+278;4939;3;Digma;Digma Vox S502F 3G
+279;3586;8;Digma;Digma Vox S504 3G
+280;4389;7;Digma;Digma Vox S505 3G
+281;4389;6;Digma;Digma Vox S506 4G
+282;4268;7;Digma;Digma Vox S507 4G
+283;3982;3;Digma;Digma Vox S508 3G
+284;4455;8;Digma;Digma Vox S509 3G
+285;5445;10;Digma;Digma Vox S513 4G
+286;19789;6;Doogee;Doogee BL12000
+287;13189;13;Doogee;Doogee BL5000
+288;14069;7;Doogee;Doogee BL7000
+289;17050;13;Doogee;Doogee MIX 64GB/4GB
+290;13937;15;Doogee;Doogee MIX 64GB/6GB
+291;9779;10;Doogee;Doogee S30
+292;19635;4;Doogee;Doogee S60
+293;7689;10;Doogee;Doogee Shoot 1
+294;5665;6;Doogee;Doogee Shoot 2
+295;3694.9;3;Doogee;Doogee X10
+296;4794.9;12;Doogee;Doogee X20
+297;5845.4;4;Doogee;Doogee X20L
+298;6369;15;Doogee;Doogee X30
+299;4730;13;Doogee;Doogee X5 Max
+300;6050;2;Doogee;Doogee X5 Max Pro
+301;5094.1;12;ELARI;ELARI CardPhone
+302;2189;12;ELARI;ELARI NanoPhone
+303;2189;12;ELARI;ELARI NanoPhone C
+304;8239;6;Elephone;Elephone C1
+305;10879;12;Elephone;Elephone P9000
+306;14069;11;Elephone;Elephone R9
+307;24189;8;Energizer;Energizer Energy 500
+308;13189;7;Energizer;Energizer Energy S500
+309;4389;13;Fly;Fly 5S
+310;1760;11;Fly;Fly Ezzy
+311;1375;12;Fly;Fly Ezzy 7
+312;1749;10;Fly;Fly Ezzy Trendy 3
+313;1529;2;Fly;Fly FF178
+314;779.9;4;Fly;Fly FF179
+315;823.9;8;Fly;Fly FF180
+316;999.9;10;Fly;Fly FF181
+317;867.9;6;Fly;Fly FF182
+318;1482.8;10;Fly;Fly FF243
+319;1782;14;Fly;Fly FF244
+320;2143.9;14;Fly;Fly FF245
+321;1353;3;Fly;Fly FF246
+322;1164.9;3;Fly;Fly FF247
+323;1221;15;Fly;Fly FF248
+324;1969;9;Fly;Fly FF249
+325;1496;11;Fly;Fly FF281
+326;1859;8;Fly;Fly FF282
+327;2739;10;Fly;Fly FS406 Strarus 5
+328;2662;11;Fly;Fly FS407 Stratus 6
+329;2583.9;4;Fly;Fly FS408 Stratus 8
+330;3289;14;Fly;Fly FS454 Nimbus 8
+331;5390;14;Fly;Fly FS455 Nimbus 11
+332;3001.9;11;Fly;Fly FS456 Nimbus 14
+333;4169;2;Fly;Fly FS457 Nimbus 15
+334;2948;4;Fly;Fly FS458 Stratus 7
+335;3628.9;15;Fly;Fly FS459 Nimbus 16
+336;3289;8;Fly;Fly FS505 Nimbus 7
+337;3949;6;Fly;Fly FS506 Cirrus 3
+338;5148;5;Fly;Fly FS507 Cirrus 4
+339;4389;12;Fly;Fly FS508 Cirrus 6
+340;4389;11;Fly;Fly FS509 Nimbus 9
+341;6589;7;Fly;Fly FS511 Cirrus 7
+342;4389;6;Fly;Fly FS512 Nimbus 10
+343;5368;9;Fly;Fly FS516 Cirrus 12
+344;4277.9;8;Fly;Fly FS517 Cirrus 11
+345;5663.9;2;Fly;Fly FS518 Cirrus 13
+346;6743;14;Fly;Fly FS520 Selfie 1
+347;5995;15;Fly;Fly FS522 Cirrus 14
+348;6017;9;Fly;Fly FS523 Cirrus 16
+349;3729;4;Fly;Fly FS524 Knockout
+350;5379;9;Fly;Fly FS526 Power Plus 2
+351;3692.7;4;Fly;Fly FS527 Nimbus 17
+352;5049;13;Fly;Fly FS528 Memory Plus
+353;4169;6;Fly;Fly FS529 Champ
+354;6589;3;Fly;Fly FS553 Cirrus 9
+355;1749;3;Fly;Fly IQ239 Era
+356;5819;14;Fly;Fly IQ280 Tech
+357;1582.9;6;Fly;Fly TS113
+358;825;10;Ginzzu;Ginzzu M102 Dual
+359;1331;14;Ginzzu;Ginzzu M108 Dual
+360;1023;2;Ginzzu;Ginzzu M201
+361;869;2;Ginzzu;Ginzzu MB501
+362;1089;14;Ginzzu;Ginzzu MB505
+363;1837;15;Ginzzu;Ginzzu R11 Dual
+364;2189;11;Ginzzu;Ginzzu R12 Dual
+365;2167;13;Ginzzu;Ginzzu R1D
+366;3718;5;Ginzzu;Ginzzu R2 Dual
+367;7139;15;Ginzzu;Ginzzu R5 Dual
+368;2387;2;Ginzzu;Ginzzu R50D Dual
+369;4356;4;Ginzzu;Ginzzu R62D Dual
+370;8096;6;Ginzzu;Ginzzu RS71 Dual
+371;10987.9;14;Ginzzu;Ginzzu RS81D
+372;9383;11;Ginzzu;Ginzzu RS93 Dual
+373;15389;6;Ginzzu;Ginzzu RS94 Dual
+374;13189;9;Ginzzu;Ginzzu RS95 Dual
+375;13739;8;Ginzzu;Ginzzu RS96 Dual
+376;19789;10;Ginzzu;Ginzzu RS97 Dual
+377;3289;11;Ginzzu;Ginzzu S4020
+378;2189;9;Ginzzu;Ginzzu S5001
+379;5049;14;Ginzzu;Ginzzu S5020
+380;5819;4;Ginzzu;Ginzzu S5050
+381;6798;11;Ginzzu;Ginzzu S5140
+382;5148;2;Ginzzu;Ginzzu S5220
+383;7557;3;Ginzzu;Ginzzu S5510
+384;6039;15;Ginzzu;Ginzzu ST6120
+385;54989;4;Google;Google Pixel 2 128GB
+386;50589;4;Google;Google Pixel 2 64GB
+387;61050;9;Google;Google Pixel 2 XL 64GB
+388;38707.9;12;Google;Google Pixel XL 128GB
+389;2189;13;Haier;Haier A41
+390;4937.9;5;Haier;Haier G7
+391;5498.9;2;Haier;Haier T54P
+392;14289;6;Highscreen;Highscreen Boost 3 SE
+393;7139;13;Highscreen;Highscreen Easy L
+394;7029;9;Highscreen;Highscreen Easy Power
+395;6325;12;Highscreen;Highscreen Easy XL
+396;7414;3;Highscreen;Highscreen Easy XL Pro
+397;8349;4;Highscreen;Highscreen Fest
+398;9889;15;Highscreen;Highscreen Fest Pro
+399;8349;2;Highscreen;Highscreen Fest XL
+400;23089;5;Highscreen;Highscreen Power Five
+401;8789;12;Highscreen;Highscreen Power Ice
+402;8789;3;Highscreen;Highscreen Power Rage
+403;7689;7;Highscreen;Highscreen Razar
+404;9889;8;Highscreen;Highscreen Razar Pro
+405;9592;5;Highscreen;Highscreen Thunder
+406;2704.9;12;Hiper;Hiper sPhone One
+407;4508.9;2;Homtom;Homtom HT16
+408;6048.9;12;Homtom;Homtom HT16 Pro
+409;8138.9;15;Homtom;Homtom HT20
+410;9458.9;7;Homtom;Homtom HT20 Pro
+411;4618.9;2;Homtom;Homtom HT26
+412;5058.9;6;Homtom;Homtom HT27
+413;4508.9;15;Homtom;Homtom HT3
+414;5608.9;8;Homtom;Homtom HT30
+415;6048.9;11;Homtom;Homtom HT37
+416;8578.9;8;Homtom;Homtom HT50
+417;4728.9;11;Homtom;Homtom HT7
+418;5489;15;Homtom;Homtom S16
+419;13748.9;12;Homtom;Homtom S8
+420;12978.9;15;Homtom;Homtom S9 Plus
+421;5608.9;10;Homtom;Homtom Zoji Z6
+422;7148.9;8;Homtom;Homtom Zoji Z7
+423;12428.9;9;Homtom;Homtom ZoJI Z8 IP68
+424;14525.5;12;HTC;HTC 10 32GB
+425;17807.9;14;HTC;HTC 10 evo
+426;27489;5;HTC;HTC 10 Lifestyle
+427;7909;15;HTC;HTC Desire 530
+428;6985;14;HTC;HTC Desire 626G Dual Sim
+429;10987.9;4;HTC;HTC Desire 628 Dual Sim
+430;8569;6;HTC;HTC Desire 630 Dual Sim
+431;13189;11;HTC;HTC Desire 830
+432;6374.5;11;HTC;HTC One 16GB
+433;6374.5;8;HTC;HTC One 32GB
+434;13189;10;HTC;HTC One A9s 32GB
+435;25404.5;4;HTC;HTC One E9 Dual Sim
+436;17556;10;HTC;HTC One M8 16GB
+437;7210.5;6;HTC;HTC One M8 32GB
+438;9300.5;10;HTC;HTC One M9 32GB
+439;15570.5;11;HTC;HTC One Max
+440;7645;14;HTC;HTC One Mini
+441;6270;7;HTC;HTC One Mini 2
+442;14738.9;4;HTC;HTC One X10 Dual Sim
+443;14278;10;HTC;HTC U Play 32GB Dual Sim
+444;15057.9;10;HTC;HTC U Play 64GB Dual Sim
+445;35189;6;HTC;HTC U Ultra 128GB Dual Sim
+446;20667.9;12;HTC;HTC U Ultra 64GB Dual Sim
+447;35847.9;9;HTC;HTC U11 128GB
+448;36949;8;HTC;HTC U11 64GB
+449;29040;2;HTC;HTC U11 Eyes
+450;44768.9;3;HTC;HTC U11 Plus 128GB
+451;47278;14;HTC;HTC U11 Plus 64GB
+452;10890;3;Huawei;Huawei Ascend Y6 Dual Sim
+453;1089;11;Huawei;Huawei F362
+454;13748.9;5;Huawei;Huawei GR5
+455;8789;5;Huawei;Huawei Honor 4C
+456;5489;9;Huawei;Huawei Honor 4X
+457;9064;5;Huawei;Huawei Honor 6A Dual Sim
+458;10329;4;Huawei;Huawei Honor 6C
+459;12080.2;6;Huawei;Huawei Honor 6C Pro Dual Sim
+460;15389;14;Huawei;Huawei Honor 6x 2016 32GB/3GB
+461;16489;12;Huawei;Huawei Honor 6x 2016 64GB/4GB
+462;16058.9;3;Huawei;Huawei Honor 7 Dual Sim
+463;18689;9;Huawei;Huawei Honor 7X 32GB Dual Sim
+464;18689;9;Huawei;Huawei Honor 7X 64GB Dual Sim
+465;18689;4;Huawei;Huawei Honor 8 32GB/3GB Dual Sim
+466;21406;3;Huawei;Huawei Honor 8 32GB/4GB Dual Sim
+467;21989;7;Huawei;Huawei Honor 8 64GB Dual Sim
+468;11990;11;Huawei;Huawei Honor 8 Lite 32GB/3GB Dual Sim
+469;31999;9;Huawei;Huawei Honor 8 Pro 64GB/4GB Dual Sim
+470;28587.9;15;Huawei;Huawei Honor 9 128GB/6GB Dual Sim
+471;24046;10;Huawei;Huawei Honor 9 64GB/4GB Dual Sim
+472;26829;3;Huawei;Huawei Honor 9 64GB/6GB Dual Sim
+473;14848.9;6;Huawei;Huawei Honor 9 Lite 32GB Dual Sim
+474;38489;5;Huawei;Huawei Honor V10 128GB/6Gb Dual Sim
+475;38489;4;Huawei;Huawei Honor V10 64GB/4Gb Dual Sim
+476;40478.9;5;Huawei;Huawei Mate 10 Dual Sim
+477;17809;15;Huawei;Huawei Mate 10 Lite Dual Sim
+478;53856;2;Huawei;Huawei Mate 10 Pro Dual Sim
+479;30127.9;15;Huawei;Huawei Mate 9 Dual Sim
+480;17809;5;Huawei;Huawei Nova 2
+481;22396;5;Huawei;Huawei Nova 2 Plus
+482;19437;2;Huawei;Huawei Nova 32GB Dual Sim
+483;10659;8;Huawei;Huawei Nova Lite 2017
+484;15939;12;Huawei;Huawei P Smart Dual Sim
+485;35200;8;Huawei;Huawei P10 32GB Dual Sim
+486;14509;4;Huawei;Huawei P10 Lite 32GB/3GB Dual Sim
+487;15829;6;Huawei;Huawei P10 Lite 32GB/4GB Dual Sim
+488;19679;14;Huawei;Huawei P8
+489;21835;7;Huawei;Huawei P9 Dual Sim
+490;12639;11;Huawei;Huawei P9 Lite 16GB/2GB
+491;36289;14;Huawei;Huawei P9 Plus
+492;5929;15;Huawei;Huawei Y3 2017 Dual Sim
+493;3289;2;Huawei;Huawei Y3C Dual
+494;6699;7;Huawei;Huawei Y5 2017 Dual Sim
+495;3509;10;Huawei;Huawei Y5II Dual Sim
+496;12089;7;Huawei;Huawei Y7
+497;3179;8;Intex;Intex Aqua 4.5 3G
+498;4937.9;2;Intex;Intex Aqua Ring
+499;4389;13;Intex;Intex Cloud Glory N
+500;2079;8;Intex;Intex Ultra 4000
+501;1089;12;Irbis;Irbis SF08
+502;759;5;Irbis;Irbis SF50
+503;1199;12;Irbis;Irbis SF51
+504;1089;11;Irbis;Irbis SF61
+505;2739;11;Irbis;Irbis SP05
+506;3839;3;Irbis;Irbis SP455
+507;5498.9;5;Irbis;Irbis SP56
+508;4937.9;14;Irbis;Irbis SP57
+509;4387.9;5;Irbis;Irbis SP58
+510;4387.9;2;Irbis;Irbis SP59
+511;2695;6;Jinga;Jinga A400
+512;3289;5;Jinga;Jinga A450
+513;4389;8;Jinga;Jinga A500 4G
+514;3289;10;Jinga;Jinga A502
+515;4939;9;Jinga;Jinga Fresh
+516;5737.6;12;Jinga;Jinga Fresh 4G
+517;3125.1;9;Jinga;Jinga IP68
+518;4114;3;Jinga;Jinga Iron
+519;1419;14;Jinga;Jinga JM100
+520;649;4;Jinga;Jinga Simple F100
+521;649;14;Jinga;Jinga Simple F170
+522;594;9;Jinga;Jinga Simple F177
+523;583;7;Jinga;Jinga Simple F200
+524;583;2;Jinga;Jinga Simple F200n
+525;1309;10;Jinga;Jinga Simple F315B
+526;1662.1;11;Jinga;Jinga Simple F370
+527;2080.1;5;Jinga;Jinga Simple F510
+528;1419;9;Jinga;Jinga Simple PB100
+529;5215.1;12;Jinga;Jinga Storm
+530;10318;7;LeEco;LeEco Cool1 32GB/3GB
+531;8459;9;LeEco;LeEco Le 2 X620
+532;20887.9;12;LeEco;LeEco Le Max 2
+533;4939;6;Lenovo;Lenovo A Plus
+534;4389;10;Lenovo;Lenovo A1000
+535;5489;14;Lenovo;Lenovo A2010
+536;4389;3;Lenovo;Lenovo A2016
+537;8019;6;Lenovo;Lenovo A369i
+538;6589;3;Lenovo;Lenovo A6010 Music
+539;9557.9;11;Lenovo;Lenovo K6
+540;11528;6;Lenovo;Lenovo K6 Note
+541;15279;6;Lenovo;Lenovo K6 Note Dual
+542;15007.3;8;Lenovo;Lenovo K6 Power 16GB
+543;10989;11;Lenovo;Lenovo K6 Power 32GB
+544;10208;14;Lenovo;Lenovo K6 Power Dual
+545;14289;3;Lenovo;Lenovo Phab 2 Plus
+546;20889;4;Lenovo;Lenovo Phab 2 Pro
+547;5489;12;Lenovo;Lenovo Vibe C
+548;7139;11;Lenovo;Lenovo Vibe C2 Power
+549;12639;2;Lenovo;Lenovo Vibe K5 Note Pro
+550;8789;12;Lenovo;Lenovo Vibe K5 Plus
+551;8789;13;Lenovo;Lenovo Vibe P1M
+552;8734;10;Lenovo;Lenovo Vibe S1
+553;11990;12;Lenovo;Lenovo Vibe Shot
+554;8237.9;6;Lenovo;Lenovo Vibe X2
+555;897.6;12;Lexand;Lexand A1 Basic
+556;1960.2;12;Lexand;Lexand A2 Flip
+557;1340.9;9;Lexand;Lexand A3 Light
+558;1340.9;2;Lexand;Lexand A4 Big
+559;2662;6;Lexand;Lexand BT1 Glass
+560;2662;7;Lexand;Lexand BT1 Steel
+561;1197.9;15;Lexand;Lexand Mini LPH1
+562;1813.9;2;Lexand;Lexand Mini LPH5
+563;2189;5;Lexand;Lexand R1 Rock
+564;5434;3;LG;LG G3 32GB
+565;4576;12;LG;LG G360
+566;8349;9;LG;LG G3s DualSim
+567;36509;5;LG;LG G4 32GB
+568;8635;12;LG;LG G4c
+569;18689;13;LG;LG G5 Duos
+570;32998.9;6;LG;LG G5 SE Dual
+571;31977;5;LG;LG G6 32GB Duos
+572;27929;5;LG;LG G6 64GB Duos
+573;32877.9;7;LG;LG G6 Plus 128GB Duos
+574;7689;6;LG;LG K10
+575;9229;13;LG;LG K10 2017 Duos
+576;4928;2;LG;LG K3
+577;3509;2;LG;LG K3 Duos
+578;6721;4;LG;LG K7 2017 Duos
+579;7414;14;LG;LG K7 Duos
+580;8404;12;LG;LG K8 2017 Duos
+581;7689;15;LG;LG K8 Duos
+582;9887.9;12;LG;LG Magna DualSim
+583;15829;2;LG;LG Nexus 5X 16GB
+584;16828.9;5;LG;LG Q6 32GB Duos
+585;17160;9;LG;LG Q6? Plus 64GB Duos
+586;12303.5;3;LG;LG Q6a 16GB Duos
+587;14333;10;LG;LG Stylus 3 Duos
+588;16929;4;LG;LG V10 Duos
+589;20889;15;LG;LG V20 32GB
+590;25828;4;LG;LG V20 64GB
+591;54989;5;LG;LG V30 128GB Duos
+592;47289;15;LG;LG V30 64GB Duos
+593;8789;13;LG;LG X Cam Duos
+594;9449;3;LG;LG X Power Duos
+595;12098.9;13;LG;LG X power2
+596;9315.9;8;LG;LG X Style Duos
+597;21978;9;LG;LG X Venture
+598;8789;8;LG;LG X View Duos
+599;979;12;Maxvi;Maxvi B1
+600;1298;15;Maxvi;Maxvi B2
+601;1166;6;Maxvi;Maxvi C10
+602;1166;5;Maxvi;Maxvi C11
+603;594;9;Maxvi;Maxvi C20
+604;1474;2;Maxvi;Maxvi J1
+605;1683;14;Maxvi;Maxvi J8
+606;1518;7;Maxvi;Maxvi K10
+607;1111;6;Maxvi;Maxvi M10
+608;1111;8;Maxvi;Maxvi M11
+609;1474;6;Maxvi;Maxvi X300
+610;1529;2;Maxvi;Maxvi X500
+611;1606;14;Maxvi;Maxvi X800
+612;1947;9;Maxvi;Maxvi X850
+613;9889;7;Meizu;Meizu M1 Metal 32GB
+614;9889;6;Meizu;Meizu M2 Mini
+615;9889;11;Meizu;Meizu M2 Note 16GB
+616;14432;3;Meizu;Meizu M3 Max 64GB
+617;10989;9;Meizu;Meizu M3 Note 32GB
+618;13200;8;Meizu;Meizu M3e
+619;8349;15;Meizu;Meizu M3s 16GB
+620;9009;14;Meizu;Meizu M3s 32GB
+621;7588.9;11;Meizu;Meizu M5 16GB
+622;8734;3;Meizu;Meizu M5 32GB
+623;9348.9;9;Meizu;Meizu M5 Note 16GB
+624;10373;10;Meizu;Meizu M5 Note 32GB
+625;14982;3;Meizu;Meizu M5 Note 64GB
+626;6259;10;Meizu;Meizu M5c 16GB
+627;7843;12;Meizu;Meizu M5c 32GB
+628;7524;13;Meizu;Meizu M5s 16GB
+629;8283;14;Meizu;Meizu M5s 32GB
+630;8173;2;Meizu;Meizu M6 16GB
+631;9174;6;Meizu;Meizu M6 32GB
+632;10778.9;2;Meizu;Meizu M6 Note 16GB
+633;13387;11;Meizu;Meizu M6 Note 32GB
+634;14740;6;Meizu;Meizu M6 Note 64GB
+635;12419;10;Meizu;Meizu MX5 32GB
+636;14069;3;Meizu;Meizu MX6 32GB/3GB
+637;19778;7;Meizu;Meizu MX6 32GB/4GB
+638;16489;14;Meizu;Meizu Pro 5 32GB
+639;18029;4;Meizu;Meizu Pro 5 64GB
+640;17589;15;Meizu;Meizu Pro 6 32GB
+641;18689;5;Meizu;Meizu Pro 6 64GB
+642;37719;8;Meizu;Meizu Pro 6 Plus 64GB
+643;17952;13;Meizu;Meizu Pro 6s 64GB
+644;24750;6;Meizu;Meizu Pro 7 128GB
+645;19547;3;Meizu;Meizu Pro 7 64GB
+646;31238.9;4;Meizu;Meizu Pro 7 Plus 128GB
+647;32758;3;Meizu;Meizu Pro 7 Plus 64GB
+648;16489;15;Meizu;Meizu U10 32GB
+649;1969;3;Micromax;Micromax A61 Bolt
+650;4829;12;Micromax;Micromax Bolt Juice Q3551
+651;2849;5;Micromax;Micromax Bolt Q326
+652;3080;5;Micromax;Micromax Bolt Q346
+653;4389;8;Micromax;Micromax Bolt Q354
+654;5819;12;Micromax;Micromax Bolt Q397
+655;6589;11;Micromax;Micromax Bolt Q398
+656;5082;8;Micromax;Micromax Bolt Selfie Q424
+657;4389;6;Micromax;Micromax Bolt Warrior 1 Plus Q4101
+658;6039;13;Micromax;Micromax Bolt Warrior 2 Plus Q4202
+659;2519;15;Micromax;Micromax Brahat 2 Q402
+660;14289;2;Micromax;Micromax Canvas 5 E481
+661;7148.9;8;Micromax;Micromax Canvas 5 Lite Q462
+662;6259;8;Micromax;Micromax Canvas Juice 3 Q392
+663;7128;12;Micromax;Micromax Canvas Juice 4 Q465
+664;6589;11;Micromax;Micromax Canvas Juice A1 Q4251
+665;7128;3;Micromax;Micromax Canvas Juice A1 Q4260
+666;5159;8;Micromax;Micromax Canvas Magnus 2 Q338
+667;5489;14;Micromax;Micromax Canvas Magnus HD Q421
+668;6589;11;Micromax;Micromax Canvas Pace 2 Plus Q479
+669;5049;7;Micromax;Micromax Canvas Pace mini Q401
+670;12639;14;Micromax;Micromax Canvas Pulse 4G E451
+671;6039;7;Micromax;Micromax Canvas Q413
+672;4279;2;Micromax;Micromax Canvas Selfie 2 Q340
+673;4048;14;Micromax;Micromax Canvas Spark 2 Q334
+674;2849;14;Micromax;Micromax Q3001
+675;3586;8;Micromax;Micromax Q351
+676;4939;5;Micromax;Micromax Q409
+677;1369.5;9;Micromax;Micromax X2400
+678;1288.1;3;Micromax;Micromax X2401
+679;1556.5;13;Micromax;Micromax X2420
+680;1309;2;Micromax;Micromax X249
+681;1199;3;Micromax;Micromax X401
+682;979;5;Micromax;Micromax X406
+683;990;5;Micromax;Micromax X408
+684;957;10;Micromax;Micromax X507
+685;933.9;11;Micromax;Micromax X556
+686;1419;15;Micromax;Micromax X608
+687;1369.5;13;Micromax;Micromax X649
+688;1331;4;Micromax;Micromax X704
+689;1214.4;14;Micromax;Micromax X705
+690;1100;2;Micromax;Micromax X707
+691;1859;3;Micromax;Micromax X803
+692;1826;5;Micromax;Micromax X907
+693;1562;2;Micromax;Micromax X913
+694;1760;5;Micromax;Micromax X940
+695;5049;7;Microsoft;Microsoft Lumia 550
+696;10998.9;2;Microsoft;Microsoft Lumia 640
+697;3628.9;7;Motorola;Motorola E398
+698;4288.9;15;Motorola;Motorola KRZR K1
+699;5021.5;9;Motorola;Motorola Moto C 16GB Dual
+700;4708;3;Motorola;Motorola Moto C 8GB Dual
+701;6215;11;Motorola;Motorola Moto C Plus Dual
+702;8569;5;Motorola;Motorola Moto E
+703;7458;12;Motorola;Motorola Moto E4 Dual
+704;10527;2;Motorola;Motorola Moto E4 Plus 16GB Dual
+705;13948;3;Motorola;Motorola Moto G5S Dual
+706;12087.9;15;Motorola;Motorola Moto M Dual
+707;24189;15;Motorola;Motorola Moto Z 32GB Dual
+708;21439;12;Motorola;Motorola Moto Z Play Dual
+709;35189;15;Motorola;Motorola Moto Z2 Play 32GB Dual
+710;29018;6;Motorola;Motorola Moto Z2 Play 64GB Dual
+711;16489;9;Motorola;Motorola Nexus 6 32GB
+712;17589;3;Motorola;Motorola Nexus 6 64GB
+713;3628.9;11;Motorola;Motorola RAZR V3i
+714;5278.9;9;Motorola;Motorola RAZR2 V8
+715;5278.9;8;Motorola;Motorola RAZR2 V8 Luxury
+716;5388.9;14;Motorola;Motorola RAZR2 V9
+717;3289;10;MTC;MTC Smart Race 2 LTE
+718;2519;13;MTC;MTC Smart Race 4G
+719;2079;4;MTC;MTC Smart Start
+720;3839;7;MTC;MTC Smart Surf 2 4G
+721;2189;5;Nokia;Nokia 101 Dual Sim
+722;1419;11;Nokia;Nokia 105
+723;1375;6;Nokia;Nokia 105 2017
+724;1298;11;Nokia;Nokia 105 2017 Dual Sim
+725;1419;15;Nokia;Nokia 105 New
+726;1298;15;Nokia;Nokia 105 New Dual Sim
+727;2088.9;15;Nokia;Nokia 1202
+728;2189;13;Nokia;Nokia 1280
+729;2079;8;Nokia;Nokia 130
+730;1925;13;Nokia;Nokia 130 2017 Dual Sim
+731;1738;5;Nokia;Nokia 130 Dual Sim
+732;2739;2;Nokia;Nokia 150
+733;2054.8;11;Nokia;Nokia 150 Dual Sim
+734;2528.9;9;Nokia;Nokia 1600
+735;6820;9;Nokia;Nokia 2 Dual Sim
+736;4950;12;Nokia;Nokia 206
+737;2706;5;Nokia;Nokia 216
+738;2508;5;Nokia;Nokia 216 Dual Sim
+739;4728.9;7;Nokia;Nokia 225
+740;5489;7;Nokia;Nokia 230
+741;4433;7;Nokia;Nokia 230 Dual Sim
+742;2748.9;12;Nokia;Nokia 2680 slide
+743;3958.9;14;Nokia;Nokia 2700 Classic
+744;4398.9;12;Nokia;Nokia 2720 Fold
+745;3628.9;6;Nokia;Nokia 2730 Classic
+746;4068.9;2;Nokia;Nokia 2760
+747;8360;12;Nokia;Nokia 3 Dual Sim
+748;4950;3;Nokia;Nokia 301
+749;4288.9;13;Nokia;Nokia 3110 Classic
+750;3377;10;Nokia;Nokia 3310 2017 Dual Sim
+751;5498.9;10;Nokia;Nokia 3710 Fold
+752;6158.9;7;Nokia;Nokia 3720 Classic
+753;11110;12;Nokia;Nokia 5 Dual Sim
+754;3408.9;11;Nokia;Nokia 5130 XpressMusic
+755;13748.9;9;Nokia;Nokia 515
+756;13748.9;3;Nokia;Nokia 515 Dual Sim
+757;4070;14;Nokia;Nokia 5230
+758;3674;6;Nokia;Nokia 5310 XpressMusic
+759;4288.9;4;Nokia;Nokia 5530 XpressMusic
+760;4728.9;10;Nokia;Nokia 5610 XpressMusic
+761;3817;11;Nokia;Nokia 5800 XpressMusic
+762;14278;5;Nokia;Nokia 6 32GB Dual Sim
+763;17545;5;Nokia;Nokia 6 64GB Dual Sim
+764;2198.9;3;Nokia;Nokia 6020
+765;3298.9;5;Nokia;Nokia 6060
+766;3298.9;15;Nokia;Nokia 6085
+767;4178.9;13;Nokia;Nokia 6101
+768;3958.9;15;Nokia;Nokia 6103
+769;3278;11;Nokia;Nokia 6131
+770;4398.9;15;Nokia;Nokia 6230
+771;4398.9;12;Nokia;Nokia 6230i
+772;3738.9;14;Nokia;Nokia 6233
+773;5498.9;11;Nokia;Nokia 6260
+774;4840;9;Nokia;Nokia 6267
+775;2299;14;Nokia;Nokia 6300
+776;3848.9;15;Nokia;Nokia 6303 Classic
+777;4288.9;3;Nokia;Nokia 6303i Classic
+778;5058.9;8;Nokia;Nokia 6310i
+779;4224;14;Nokia;Nokia 6500 Classic
+780;4288.9;11;Nokia;Nokia 6500 Slide
+781;3718;15;Nokia;Nokia 6555
+782;5170;14;Nokia;Nokia 6600 Fold
+783;4288.9;8;Nokia;Nokia 6600 Slide
+784;4838.9;11;Nokia;Nokia 6600i Slide
+785;6061;10;Nokia;Nokia 6700 Classic
+786;5280;7;Nokia;Nokia 6700 Slide
+787;3718;14;Nokia;Nokia 7230
+788;3850;8;Nokia;Nokia 7260
+789;4400;9;Nokia;Nokia 7270
+790;4730;3;Nokia;Nokia 7373
+791;5500;7;Nokia;Nokia 7390
+792;4708;5;Nokia;Nokia 7510 Supernova
+793;25949;2;Nokia;Nokia 8 Dual Sim
+794;8798.9;14;Nokia;Nokia 8600 Luna
+795;13046;14;Nokia;Nokia 8800
+796;40700;10;Nokia;Nokia 8800 Arte
+797;16379;12;Nokia;Nokia 8800 Sirocco
+798;4838.9;12;Nokia;Nokia Asha 210
+799;4950;4;Nokia;Nokia Asha 300
+800;3188.9;15;Nokia;Nokia C2-00
+801;2069.1;4;Nokia;Nokia C2-01
+802;4928;15;Nokia;Nokia C3-01
+803;4728.9;11;Nokia;Nokia C5
+804;4728.9;15;Nokia;Nokia C5 5 ŒP
+805;3298.9;10;Nokia;Nokia C5-03
+806;4838.9;10;Nokia;Nokia C6-01
+807;4838.9;9;Nokia;Nokia C7
+808;6160;12;Nokia;Nokia E50
+809;6600;5;Nokia;Nokia E51 Old
+810;5368;7;Nokia;Nokia E52
+811;4268;14;Nokia;Nokia E66
+812;4378;13;Nokia;Nokia E71
+813;5388.9;10;Nokia;Nokia E72
+814;10345.5;3;Nokia;Nokia Lumia 1020
+815;8248.9;8;Nokia;Nokia Lumia 520
+816;9898.9;2;Nokia;Nokia Lumia 640
+817;8789;6;Nokia;Nokia Lumia 720
+818;5388.9;3;Nokia;Nokia Lumia 820
+819;9898.9;11;Nokia;Nokia Lumia 830
+820;5434;10;Nokia;Nokia Lumia 920
+821;6479;12;Nokia;Nokia Lumia 925
+822;11988.9;2;Nokia;Nokia Lumia 930
+823;3188.9;8;Nokia;Nokia N70
+824;3298.9;10;Nokia;Nokia N72
+825;3848.9;9;Nokia;Nokia N73
+826;5368;10;Nokia;Nokia N76
+827;4398.9;10;Nokia;Nokia N78
+828;4398.9;13;Nokia;Nokia N79
+829;5709;13;Nokia;Nokia N8
+830;4620;4;Nokia;Nokia N81
+831;4178.9;12;Nokia;Nokia N82
+832;4728.9;8;Nokia;Nokia N85
+833;5278.9;12;Nokia;Nokia N86
+834;5278.9;14;Nokia;Nokia N95
+835;5058.9;15;Nokia;Nokia N95 8Gb
+836;5278.9;3;Nokia;Nokia N96
+837;4948.9;3;Nokia;Nokia X1-01
+838;8789;5;Nokia;Nokia X2 Dual Sim
+839;3628.9;8;Nokia;Nokia X2 old
+840;4728.9;13;Nokia;Nokia X2-02
+841;5170;3;Nokia;Nokia X3
+842;5388.9;6;Nokia;Nokia X3-02
+843;5388.9;4;Nokia;Nokia X6
+844;7370;2;Nokia;Nokia X7
+845;25342.9;11;OnePlus;OnePlus 2
+846;26057.9;15;OnePlus;OnePlus 3
+847;30019;11;OnePlus;OnePlus 3T 128GB
+848;27137;10;OnePlus;OnePlus 3T 64GB
+849;36784;15;OnePlus;OnePlus 5 128GB
+850;32549;6;OnePlus;OnePlus 5 64GB
+851;35858.9;12;OnePlus;OnePlus 5T 128GB
+852;31348.9;5;OnePlus;OnePlus 5T 64GB
+853;1749;6;Onext;Onext Care-Phone 5
+854;2409;3;Onext;Onext Care-Phone 6
+855;21989;7;OPPO;OPPO F5
+856;19789;7;OPPO;OPPO F5 Youth
+857;22328.9;12;OPPO;OPPO R9s
+858;10219;12;Oukitel;Oukitel K10000
+859;12408;7;Oukitel;Oukitel K10000 Pro
+860;12045;7;Oukitel;Oukitel K6000 Plus
+861;19250;12;Oukitel;Oukitel Mix 2
+862;1406.9;9;Oysters;Oysters Arctic 450
+863;1089;11;Oysters;Oysters Omsk
+864;14014;14;Philips;Philips 588
+865;869;12;Philips;Philips E103
+866;1078;4;Philips;Philips E106
+867;2189;13;Philips;Philips E160
+868;3289;3;Philips;Philips E181
+869;4290;5;Philips;Philips S307
+870;3509;3;Philips;Philips S309
+871;7084;4;Philips;Philips S318
+872;5764;12;Philips;Philips S326
+873;7238;14;Philips;Philips S327
+874;4398.9;4;Philips;Philips S337
+875;7469;13;Philips;Philips S386
+876;8569;9;Philips;Philips S396
+877;16599;14;Philips;Philips S616
+878;7249;15;Philips;Philips X586
+879;2671.9;7;Philips;Philips Xenium E116
+880;1969;13;Philips;Philips Xenium E168
+881;4686;11;Philips;Philips Xenium E331
+882;5093;14;Philips;Philips Xenium E560
+883;4851;2;Philips;Philips Xenium E570
+884;8162;9;Philips;Philips Xenium V377
+885;7293;8;Philips;Philips Xenium V526
+886;13437.6;5;Philips;Philips Xenium V787
+887;3619;13;Philips;Philips Xenium X800
+888;13959;11;Philips;Philips Xenium X818
+889;4939;6;Prestigio;Prestigio Grace P5 DUO
+890;6710;2;Prestigio;Prestigio Grace R5 LTE
+891;3289;14;Prestigio;Prestigio MultiPhone 3458 DUO
+892;4609;13;Prestigio;Prestigio MultiPhone 3512 DUO
+893;4059;9;Prestigio;Prestigio MultiPhone 3527 DUO
+894;6589;15;Prestigio;Prestigio MultiPhone 5506 DUO
+895;7139;7;Prestigio;Prestigio MultiPhone 5530 DUO
+896;4389;3;Prestigio;Prestigio MultiPhone Wize N3 DUO
+897;4939;12;Prestigio;Prestigio Muze B1 DUO
+898;6248;8;Prestigio;Prestigio Muze B5 DUO
+899;5753;3;Prestigio;Prestigio Muze B7 DUO
+900;6237;3;Prestigio;Prestigio Muze C7 LTE
+901;5489;3;Prestigio;Prestigio Muze G3 DUO
+902;5863;6;Prestigio;Prestigio Muze H3 DUO
+903;4499;10;Prestigio;Prestigio Muze J3 DUO
+904;3839;3;Prestigio;Prestigio Wize G3
+905;2904;8;Prestigio;Prestigio Wize R3 DUO
+906;955.9;13;Qumo;Qumo Push 184 Dual
+907;1089;3;Qumo;Qumo Push 242 Dual
+908;825;5;Qumo;Qumo Push X2
+909;7678;10;RugGear;RugGear Explorer P860
+910;3729;2;RugGear;RugGear Mariner RG128
+911;2189;9;RugGear;RugGear RG129
+912;3619;11;RugGear;RugGear RG160
+913;13332;11;RugGear;RugGear RG310 Voyager
+914;21439;5;RugGear;RugGear RG730
+915;31999;12;RugGear;RugGear RG740
+916;20889;5;RugGear;RugGear Swift Pro RG500
+917;8255.5;6;Samsung;Samsung Galaxy A3
+918;11979;12;Samsung;Samsung Galaxy A3 2016
+919;14322;4;Samsung;Samsung Galaxy A3 2017
+920;9196;12;Samsung;Samsung Galaxy A5
+921;10781.1;13;Samsung;Samsung Galaxy A5 2016
+922;18359;6;Samsung;Samsung Galaxy A5 2017
+923;12760;4;Samsung;Samsung Galaxy A7
+924;15928;6;Samsung;Samsung Galaxy A7 2016
+925;21439;2;Samsung;Samsung Galaxy A7 2017
+926;38489;5;Samsung;Samsung Galaxy A8 16GB
+927;28853;14;Samsung;Samsung Galaxy A8 2018 32GB
+928;30789;13;Samsung;Samsung Galaxy A8 2018 64GB
+929;32318;6;Samsung;Samsung Galaxy A8 32GB
+930;32637;2;Samsung;Samsung Galaxy A8 Plus 2018 32GB
+931;4398.9;14;Samsung;Samsung Galaxy Ace
+932;6165.5;8;Samsung;Samsung Galaxy Alpha
+933;15827.9;8;Samsung;Samsung Galaxy C5 32GB
+934;10345.5;9;Samsung;Samsung Galaxy Grand 2 Duos
+935;6598.9;2;Samsung;Samsung Galaxy Grand Duos
+936;6589;9;Samsung;Samsung Galaxy J1
+937;6259;14;Samsung;Samsung Galaxy J1 2016
+938;4279;7;Samsung;Samsung Galaxy J1 mini 2016
+939;5423;7;Samsung;Samsung Galaxy J1 mini Prime
+940;10987.9;6;Samsung;Samsung Galaxy J2
+941;9295;6;Samsung;Samsung Galaxy J2 2018
+942;7502;13;Samsung;Samsung Galaxy J2 Prime
+943;7095;5;Samsung;Samsung Galaxy J2 Prime Duos
+944;9889;7;Samsung;Samsung Galaxy J3
+945;7920;14;Samsung;Samsung Galaxy J3 2016
+946;10890;13;Samsung;Samsung Galaxy J3 2017
+947;8789;7;Samsung;Samsung Galaxy J3 Pro
+948;10120;12;Samsung;Samsung Galaxy J5
+949;10494;2;Samsung;Samsung Galaxy J5 2016
+950;14025;10;Samsung;Samsung Galaxy J5 2017
+951;12089;8;Samsung;Samsung Galaxy J5 Prime 2016
+952;15389;15;Samsung;Samsung Galaxy J5 Pro 2017
+953;13530;4;Samsung;Samsung Galaxy J7
+954;12199;7;Samsung;Samsung Galaxy J7 2016
+955;15895;11;Samsung;Samsung Galaxy J7 2017
+956;11363;3;Samsung;Samsung Galaxy J7 Nxt
+957;11000;6;Samsung;Samsung Galaxy Note 3
+958;10241;8;Samsung;Samsung Galaxy Note 3 LTE
+959;11390.5;6;Samsung;Samsung Galaxy Note 4
+960;15719;11;Samsung;Samsung Galaxy Note 5 32GB
+961;28369;13;Samsung;Samsung Galaxy Note 5 Duos
+962;55880;2;Samsung;Samsung Galaxy Note8 128GB
+963;49168.9;15;Samsung;Samsung Galaxy Note8 64GB
+964;12155;2;Samsung;Samsung Galaxy On8 2016
+965;4840;15;Samsung;Samsung Galaxy S Duos
+966;6598.9;5;Samsung;Samsung Galaxy S2
+967;7689;8;Samsung;Samsung Galaxy S3 16GB
+968;53339;7;Samsung;Samsung Galaxy S3 32GB
+969;7370;13;Samsung;Samsung Galaxy S3 mini 8GB
+970;6930;5;Samsung;Samsung Galaxy S4 16GB
+971;6930;15;Samsung;Samsung Galaxy S4 LTE
+972;6996;3;Samsung;Samsung Galaxy S4 mini
+973;6792.5;12;Samsung;Samsung Galaxy S4 mini LTE
+974;8030;3;Samsung;Samsung Galaxy S5 16GB
+975;17477.9;7;Samsung;Samsung Galaxy S5 Duos
+976;10120;9;Samsung;Samsung Galaxy S5 LTE
+977;9889;10;Samsung;Samsung Galaxy S5 mini
+978;8030;15;Samsung;Samsung Galaxy S5 Octa 16GB
+979;11759;5;Samsung;Samsung Galaxy S6 32GB
+980;17919;10;Samsung;Samsung Galaxy S6 Edge 32GB
+981;28477.9;9;Samsung;Samsung Galaxy S6 Edge 64GB
+982;24750;15;Samsung;Samsung Galaxy S6 Edge Plus 32GB
+983;15939;11;Samsung;Samsung Galaxy S7 32GB
+984;22330;13;Samsung;Samsung Galaxy S7 Edge 32GB
+985;38973;8;Samsung;Samsung Galaxy S8
+986;51634;11;Samsung;Samsung Galaxy S8 Plus 128GB
+987;42216.9;3;Samsung;Samsung Galaxy S8 Plus 64GB
+988;65989;13;Samsung;Samsung Galaxy S9 64GB
+989;7148.9;11;Samsung;Samsung Galaxy Win Duos
+990;16676;14;Samsung;Samsung Galaxy Xcover 4
+991;4398.9;5;Samsung;Samsung GT-C3010
+992;3518.9;4;Samsung;Samsung GT-C3050
+993;8580;8;Samsung;Samsung GT-C3322 Duos
+994;6050;13;Samsung;Samsung GT-C3520
+995;2420;5;Samsung;Samsung GT-E1182 Duos
+996;3630;4;Samsung;Samsung GT-E2330
+997;4398.9;3;Samsung;Samsung GT-E2530
+998;3958.9;11;Samsung;Samsung GT-E2550 Monte Slider
+999;3298.9;9;Samsung;Samsung GT-E3210
+1000;4508.9;3;Samsung;Samsung GT-S3600
+1001;7698.9;10;Samsung;Samsung GT-S5150 Diva folder
+1002;8030;13;Samsung;Samsung GT-S5610
+1003;5819;13;SENSEIT;SENSEIT A200
+1004;7579;14;SENSEIT;SENSEIT E510
+1005;2079;15;SENSEIT;SENSEIT L208
+1006;3518.9;7;SENSEIT;SENSEIT P101
+1007;3729;8;SENSEIT;SENSEIT P110
+1008;2739;9;SENSEIT;SENSEIT P210
+1009;5709;15;SENSEIT;SENSEIT P300
+1010;9339;4;SENSEIT;SENSEIT R450
+1011;5388.9;13;Sony Ericsson;Sony Ericsson Aino
+1012;4398.9;10;Sony Ericsson;Sony Ericsson C510i
+1013;5828.9;6;Sony Ericsson;Sony Ericsson C702i
+1014;4838.9;14;Sony Ericsson;Sony Ericsson C902i
+1015;5390;9;Sony Ericsson;Sony Ericsson C903i
+1016;5388.9;15;Sony Ericsson;Sony Ericsson C905i
+1017;4728.9;11;Sony Ericsson;Sony Ericsson Cedar
+1018;4508.9;11;Sony Ericsson;Sony Ericsson Elm
+1019;5058.9;4;Sony Ericsson;Sony Ericsson Hazel
+1020;5168.9;12;Sony Ericsson;Sony Ericsson J105
+1021;3630;10;Sony Ericsson;Sony Ericsson K660i
+1022;4178.9;6;Sony Ericsson;Sony Ericsson K750i
+1023;6270;7;Sony Ericsson;Sony Ericsson K770i
+1024;3848.9;5;Sony Ericsson;Sony Ericsson K790i
+1025;3958.9;15;Sony Ericsson;Sony Ericsson K800i
+1026;4398.9;5;Sony Ericsson;Sony Ericsson K810i
+1027;6270;8;Sony Ericsson;Sony Ericsson K850i
+1028;5278.9;2;Sony Ericsson;Sony Ericsson Satio
+1029;3848.9;10;Sony Ericsson;Sony Ericsson T700i
+1030;3848.9;15;Sony Ericsson;Sony Ericsson T715i
+1031;5610;15;Sony Ericsson;Sony Ericsson W380i
+1032;4838.9;2;Sony Ericsson;Sony Ericsson W508i
+1033;4618.9;12;Sony Ericsson;Sony Ericsson W580i
+1034;3628.9;2;Sony Ericsson;Sony Ericsson W595i
+1035;4398.9;8;Sony Ericsson;Sony Ericsson W705i
+1036;3628.9;10;Sony Ericsson;Sony Ericsson W810i
+1037;3958.9;5;Sony Ericsson;Sony Ericsson W880i
+1038;4178.9;13;Sony Ericsson;Sony Ericsson W890i
+1039;5388.9;7;Sony Ericsson;Sony Ericsson W980i
+1040;7038.9;7;Sony Ericsson;Sony Ericsson W995i
+1041;4178.9;12;Sony Ericsson;Sony Ericsson Xperia Neo V
+1042;4398.9;7;Sony Ericsson;Sony Ericsson Xperia Ray
+1043;20889;12;Sony;Sony Xperia C5 Ultra Dual
+1044;8657;3;Sony;Sony Xperia E5
+1045;6270;3;Sony;Sony Xperia Ion
+1046;5214;2;Sony;Sony Xperia J
+1047;5984;9;Sony;Sony Xperia L
+1048;12782;7;Sony;Sony Xperia L1
+1049;10945;8;Sony;Sony Xperia L1 Dual
+1050;15169;5;Sony;Sony Xperia L2 Dual Sim
+1051;10175;3;Sony;Sony Xperia M4 Aqua
+1052;9625;2;Sony;Sony Xperia M4 Aqua Dual
+1053;17477.9;6;Sony;Sony Xperia M5 Dual
+1054;4948.9;4;Sony;Sony Xperia miro
+1055;5907;5;Sony;Sony Xperia P
+1056;6149;5;Sony;Sony Xperia S
+1057;9240;3;Sony;Sony Xperia SP
+1058;6589;14;Sony;Sony Xperia T
+1059;16373.5;4;Sony;Sony Xperia T3
+1060;6864;10;Sony;Sony Xperia TX
+1061;5258;10;Sony;Sony Xperia U
+1062;6578;14;Sony;Sony Xperia V
+1063;16379;3;Sony;Sony Xperia X
+1064;20328;6;Sony;Sony Xperia X Compact
+1065;17941;4;Sony;Sony Xperia X Dual
+1066;23584;3;Sony;Sony Xperia X Performance
+1067;22869;15;Sony;Sony Xperia X Performance Dual
+1068;12430;3;Sony;Sony Xperia XA
+1069;11867.9;11;Sony;Sony Xperia XA Dual
+1070;16489;15;Sony;Sony Xperia XA Ultra
+1071;18678;4;Sony;Sony Xperia XA Ultra Dual
+1072;14652;12;Sony;Sony Xperia XA1
+1073;14628.9;3;Sony;Sony Xperia XA1 Dual
+1074;20337.9;13;Sony;Sony Xperia XA1 Plus Dual
+1075;26389;3;Sony;Sony Xperia XA1 Ultra
+1076;21604;2;Sony;Sony Xperia XA1 Ultra Dual
+1077;26777.3;5;Sony;Sony Xperia XA2 Dual
+1078;30668;14;Sony;Sony Xperia XA2 Ultra Dual
+1079;31966;5;Sony;Sony Xperia XZ
+1080;24077.9;9;Sony;Sony Xperia XZ Dual
+1081;33814;3;Sony;Sony Xperia XZ Premium
+1082;60489;5;Sony;Sony Xperia XZ Premium Dual
+1083;28556;15;Sony;Sony Xperia XZ1 Compact
+1084;30470;10;Sony;Sony Xperia XZ1 Dual
+1085;24750;3;Sony;Sony Xperia XZs
+1086;24090;7;Sony;Sony Xperia XZs Dual
+1087;6751.8;7;Sony;Sony Xperia Z
+1088;15664;13;Sony;Sony Xperia Z Ultra
+1089;7524;7;Sony;Sony Xperia Z1
+1090;7524;6;Sony;Sony Xperia Z1 Compact
+1091;8778;11;Sony;Sony Xperia Z2
+1092;9300.5;2;Sony;Sony Xperia Z3
+1093;8882.5;11;Sony;Sony Xperia Z3 Compact
+1094;11390.5;5;Sony;Sony Xperia Z3 Plus
+1095;14525.5;10;Sony;Sony Xperia Z5
+1096;14525.5;7;Sony;Sony Xperia Z5 Compact
+1097;18700;14;Sony;Sony Xperia Z5 Dual
+1098;18705.5;12;Sony;Sony Xperia Z5 Premium
+1099;6751.8;6;Sony;Sony Xperia ZL
+1100;7194;3;Sony;Sony Xperia ZR
+1101;869;9;Stark;Stark Impress Fun
+1102;1089;2;Stark;Stark K201
+1103;649;11;Texet;Texet TM-101
+1104;539;11;Texet;Texet TM-104
+1105;979;14;Texet;Texet TM-125
+1106;759;6;Texet;Texet TM-127
+1107;3078.9;11;Texet;Texet TM-128
+1108;1070.3;11;Texet;Texet TM-203
+1109;1419;8;Texet;Texet TM-204
+1110;1056;9;Texet;Texet TM-214
+1111;1529;11;Texet;Texet TM-230
+1112;1430;3;Texet;Texet TM-303
+1113;1485;15;Texet;Texet TM-304
+1114;1870;7;Texet;Texet TM-400
+1115;1708.3;15;Texet;Texet TM-402
+1116;1001;3;Texet;Texet TM-403
+1117;2068;8;Texet;Texet TM-404
+1118;9064;15;Texet;Texet TM-4083
+1119;7139;6;Texet;Texet TM-4084
+1120;2189;11;Texet;Texet TM-4510
+1121;3399;10;Texet;Texet TM-501R
+1122;1155;2;Texet;Texet TM-504R
+1123;3289;11;Texet;Texet TM-512R
+1124;3509;7;Texet;Texet TM-513R
+1125;3938;15;Texet;Texet TM-515R
+1126;3399;5;Texet;Texet TM-520R
+1127;1089;15;Texet;Texet TM-B206
+1128;2011.9;5;Texet;Texet TM-B216
+1129;1199;3;Texet;Texet TM-B217
+1130;1375;15;Texet;Texet TM-B220
+1131;1694;3;Texet;Texet TM-B306
+1132;1353;9;Texet;Texet TM-B320
+1133;1804;12;Texet;Texet TM-B330
+1134;1639;9;Texet;Texet TM-D227
+1135;1265;10;Texet;Texet TM-D228
+1136;1705;12;Texet;Texet TM-D327
+1137;2189;5;Texet;Texet TM-D328
+1138;1639;15;Texet;Texet TM-D427
+1139;2079;3;Texet;Texet X-driver Quad TM-4082R
+1140;4169;4;Texet;Texet X-quad TM-4503
+1141;6039;3;Texet;Texet X-shine TM-5007
+1142;5489;10;TP-LINK;TP-LINK Neffos C5
+1143;7689;15;TP-LINK;TP-LINK Neffos C5 Max
+1144;4508.9;14;TP-LINK;TP-LINK Neffos C5L
+1145;8734;3;TP-LINK;TP-LINK Neffos X1 16GB
+1146;9768;2;TP-LINK;TP-LINK Neffos X1 32GB
+1147;7907.9;6;TP-LINK;TP-LINK Neffos X1 Lite
+1148;11726;12;TP-LINK;TP-LINK Neffos X1 Max 32GB
+1149;13519;3;TP-LINK;TP-LINK Neffos X1 Max 64GB
+1150;5929;7;TP-LINK;TP-LINK Neffos Y5
+1151;4598;3;TP-LINK;TP-LINK Neffos Y50
+1152;3399;15;TP-LINK;TP-LINK Neffos Y5L
+1153;5335;9;Turbo;Turbo X5
+1154;17820;7;UleFone;UleFone Armor 2
+1155;17963;14;UleFone;UleFone Gemini
+1156;17543.9;2;UleFone;UleFone Power
+1157;12518;12;UleFone;UleFone Power 2
+1158;16489;14;UleFone;UleFone T1
+1159;2739;9;Vertex;Vertex C304
+1160;1408;5;Vertex;Vertex C305
+1161;1309;8;Vertex;Vertex C306
+1162;1969;2;Vertex;Vertex C307
+1163;1929.4;8;Vertex;Vertex C308
+1164;2079;5;Vertex;Vertex C310
+1165;1307.9;9;Vertex;Vertex D503
+1166;1793;13;Vertex;Vertex D508
+1167;2409;8;Vertex;Vertex D510
+1168;1318.9;13;Vertex;Vertex D511
+1169;1628;12;Vertex;Vertex D513
+1170;1969;14;Vertex;Vertex D514
+1171;1556.5;14;Vertex;Vertex D515
+1172;869;3;Vertex;Vertex D516
+1173;1089;9;Vertex;Vertex D517
+1174;1529;5;Vertex;Vertex D518
+1175;8349;5;Vertex;Vertex Impress Action
+1176;5808;13;Vertex;Vertex Impress Dune
+1177;4279;5;Vertex;Vertex Impress Eagle
+1178;2959;11;Vertex;Vertex Impress Fit
+1179;6149;13;Vertex;Vertex Impress Fortune
+1180;3168;7;Vertex;Vertex Impress Fun
+1181;7458;15;Vertex;Vertex Impress Genius
+1182;4398.9;14;Vertex;Vertex Impress Glory
+1183;11869;9;Vertex;Vertex Impress Grip
+1184;5643;10;Vertex;Vertex Impress Groove
+1185;7678;7;Vertex;Vertex Impress In Touch 3G
+1186;7689;6;Vertex;Vertex Impress In Touch 4G
+1187;3839;11;Vertex;Vertex Impress Jazz
+1188;4378;5;Vertex;Vertex Impress L
+1189;4224;4;Vertex;Vertex Impress Lightning
+1190;6037.9;4;Vertex;Vertex Impress Lion 3G
+1191;6589;6;Vertex;Vertex Impress Lion 4G
+1192;5379;14;Vertex;Vertex Impress Lotus
+1193;3828;9;Vertex;Vertex Impress Luck
+1194;9449;3;Vertex;Vertex Impress Lux
+1195;4277.9;8;Vertex;Vertex Impress M
+1196;4387.9;8;Vertex;Vertex Impress Novo
+1197;4510;14;Vertex;Vertex Impress Open
+1198;5885;2;Vertex;Vertex Impress Orion
+1199;6094;15;Vertex;Vertex Impress Ra
+1200;4732.2;12;Vertex;Vertex Impress Saturn
+1201;3828;9;Vertex;Vertex Impress Star
+1202;8778;10;Vertex;Vertex Impress Strong
+1203;9449;4;Vertex;Vertex Impress Tor
+1204;7205;9;Vertex;Vertex Impress X
+1205;2902.9;9;Vertex;Vertex K202
+1206;2988.7;3;Vertex;Vertex K203
+1207;4048;13;Vertex;Vertex K204
+1208;594;4;Vertex;Vertex M105
+1209;911.9;3;Vertex;Vertex M107
+1210;594;9;Vertex;Vertex M110
+1211;1631.3;14;Vertex;Vertex S104
+1212;1929.4;11;Vertex;Vertex S105
+1213;2189;6;Vertex;Vertex S106
+1214;2682.9;11;Vertex;Vertex S107
+1215;20889;13;Vivo;Vivo V7
+1216;24189;12;Vivo;Vivo V7 Plus
+1217;9889;8;Vivo;Vivo Y53
+1218;5489;5;WileyFox;WileyFox Spark
+1219;9889;3;WileyFox;WileyFox Swift
+1220;7689;10;WileyFox;WileyFox Swift 2 Plus
+1221;9845;8;xDevice;xDevice Android Note II 5.0
+1222;17887.1;3;Xiaomi;Xiaomi Mi 3 16GB
+1223;10659;11;Xiaomi;Xiaomi Mi 4
+1224;10175;8;Xiaomi;Xiaomi Mi 5 32GB
+1225;18865;2;Xiaomi;Xiaomi Mi 5 64GB
+1226;13475;4;Xiaomi;Xiaomi Mi 5c 64GB
+1227;24090;10;Xiaomi;Xiaomi Mi 5s 128GB
+1228;21450;12;Xiaomi;Xiaomi Mi 5s 32GB
+1229;19690;10;Xiaomi;Xiaomi Mi 5s 64GB
+1230;22759;10;Xiaomi;Xiaomi Mi 5s Plus 128GB
+1231;19635;3;Xiaomi;Xiaomi Mi 5s Plus 64GB
+1232;16720;4;Xiaomi;Xiaomi Mi 5x 32GB
+1233;12529;15;Xiaomi;Xiaomi Mi 5x 64GB
+1234;27225;5;Xiaomi;Xiaomi Mi 6 128GB
+1235;22836;10;Xiaomi;Xiaomi Mi 6 64GB
+1236;12639;5;Xiaomi;Xiaomi Mi A1 32GB
+1237;13233;14;Xiaomi;Xiaomi Mi A1 64GB
+1238;19910;12;Xiaomi;Xiaomi Mi Max 128GB
+1239;21450;2;Xiaomi;Xiaomi Mi Max 2 128GB
+1240;13255;13;Xiaomi;Xiaomi Mi Max 2 32GB
+1241;13838;8;Xiaomi;Xiaomi Mi Max 2 64GB
+1242;15840;3;Xiaomi;Xiaomi Mi Max 32GB
+1243;17160;8;Xiaomi;Xiaomi Mi Max 64GB
+1244;27885;9;Xiaomi;Xiaomi Mi Mix 128GB
+1245;38115;13;Xiaomi;Xiaomi Mi Mix 2 128GB
+1246;29579;9;Xiaomi;Xiaomi Mi Mix 2 64GB
+1247;34914;8;Xiaomi;Xiaomi Mi Mix 256GB
+1248;8998;13;Xiaomi;Xiaomi Mi Note
+1249;29150;4;Xiaomi;Xiaomi Mi Note 2 128GB
+1250;23045;7;Xiaomi;Xiaomi Mi Note 2 64GB
+1251;27445;8;Xiaomi;Xiaomi Mi Note 3 128GB
+1252;19525;6;Xiaomi;Xiaomi Mi Note 3 64GB
+1253;10549;4;Xiaomi;Xiaomi Redmi 3 Pro
+1254;8459;8;Xiaomi;Xiaomi Redmi 3s 16GB
+1255;10890;2;Xiaomi;Xiaomi Redmi 3s 32GB
+1256;9625;15;Xiaomi;Xiaomi Redmi 3x
+1257;8688.9;7;Xiaomi;Xiaomi Redmi 4 16GB
+1258;12859;12;Xiaomi;Xiaomi Redmi 4 Pro 32GB
+1259;6545;3;Xiaomi;Xiaomi Redmi 4a 16GB
+1260;8349;15;Xiaomi;Xiaomi Redmi 4a 32GB
+1261;8019;6;Xiaomi;Xiaomi Redmi 4x 16GB
+1262;9339;3;Xiaomi;Xiaomi Redmi 4x 32GB
+1263;12628;4;Xiaomi;Xiaomi Redmi 4x 64GB
+1264;8459;15;Xiaomi;Xiaomi Redmi 5 16GB/2GB
+1265;9568.9;7;Xiaomi;Xiaomi Redmi 5 32GB/3GB
+1266;12747.9;14;Xiaomi;Xiaomi Redmi 5 32GB/4GB
+1267;10769;9;Xiaomi;Xiaomi Redmi 5 Plus 32GB
+1268;12648.9;4;Xiaomi;Xiaomi Redmi 5 Plus 64GB
+1269;6268.9;5;Xiaomi;Xiaomi Redmi 5a 16GB
+1270;9889;6;Xiaomi;Xiaomi Redmi Note 3 16GB
+1271;10989;10;Xiaomi;Xiaomi Redmi Note 3 32GB
+1272;11330;12;Xiaomi;Xiaomi Redmi Note 3 Pro 16GB
+1273;13970;4;Xiaomi;Xiaomi Redmi Note 3 Pro 32GB
+1274;10560;11;Xiaomi;Xiaomi Redmi Note 3i Pro SE 16GB
+1275;13090;4;Xiaomi;Xiaomi Redmi Note 3i Pro SE 32GB
+1276;10615;11;Xiaomi;Xiaomi Redmi Note 4 16GB
+1277;10109;3;Xiaomi;Xiaomi Redmi Note 4 32GB
+1278;11880;9;Xiaomi;Xiaomi Redmi Note 4 64GB
+1279;10219;15;Xiaomi;Xiaomi Redmi Note 4 Snapdragon 32GB
+1280;11880;7;Xiaomi;Xiaomi Redmi Note 4 Snapdragon 64GB
+1281;15994;3;Xiaomi;Xiaomi Redmi Note 4G
+1282;9229;10;Xiaomi;Xiaomi Redmi Note 4x 16GB
+1283;10175;5;Xiaomi;Xiaomi Redmi Note 4x 32GB
+1284;11537.9;12;Xiaomi;Xiaomi Redmi Note 4x 64GB
+1285;6586.8;4;Xiaomi;Xiaomi Redmi Note 5a 16GB
+1286;8899;7;Xiaomi;Xiaomi Redmi Note 5a Prime 32GB
+1287;10439;9;Xiaomi;Xiaomi Redmi Note 5a Prime 64GB
+1288;16280;12;Xiaomi;Xiaomi Redmi Pro 32GB
+1289;14960;7;Xiaomi;Xiaomi Redmi Pro 64GB
+1290;5608.9;14;ZOJI;ZOJI Z6
+1291;29689;2;ZTE;ZTE Axon 7
+1292;18689;7;ZTE;ZTE Axon 7 Mini
+1293;5379;14;ZTE;ZTE Blade A210
+1294;6039;9;ZTE;ZTE Blade A330
+1295;5808;3;ZTE;ZTE Blade A465
+1296;6215;9;ZTE;ZTE Blade A476
+1297;6314;13;ZTE;ZTE Blade A510
+1298;7535;5;ZTE;ZTE Blade A520
+1299;7689;10;ZTE;ZTE Blade A6
+1300;6567;14;ZTE;ZTE Blade A601
+1301;6589;6;ZTE;ZTE Blade A610
+1302;11759;3;ZTE;ZTE Blade A610 Plus
+1303;9548;10;ZTE;ZTE Blade A910
+1304;4796;6;ZTE;ZTE Blade GF3
+1305;3223;6;ZTE;ZTE Blade L110
+1306;3289;7;ZTE;ZTE Blade L370
+1307;4389;7;ZTE;ZTE Blade L5
+1308;5038;9;ZTE;ZTE Blade L5 Plus
+1309;5489;12;ZTE;ZTE Blade L7
+1310;8789;10;ZTE;ZTE Blade V7
+1311;8668;13;ZTE;ZTE Blade V7 Lite
+1312;14289;7;ZTE;ZTE Blade V7 Max
+1313;10538;15;ZTE;ZTE Blade V8 32GB
+1314;15378;12;ZTE;ZTE Blade V8 64GB
+1315;8239;9;ZTE;ZTE Blade V8 Lite
+1316;10989;7;ZTE;ZTE Blade V8 Mini
+1317;7172;10;ZTE;ZTE Blade X3
+1318;9889;8;ZTE;ZTE Blade Z10
+1319;1947;5;ZTE;ZTE F327
+1320;16489;7;ZTE;ZTE Grand S
+1321;1408;2;ZTE;ZTE N1
+1322;11704;9;ZTE;ZTE Nubia M2 Lite 32GB
+1323;11218.9;2;ZTE;ZTE Nubia M2 Lite 64GB
+1324;11209;13;ZTE;ZTE Nubia M2 Play
+1325;19116.9;12;ZTE;ZTE Nubia Z11 Max
+1326;16489;15;ZTE;ZTE Nubia Z11 mini
+1327;16115;8;ZTE;ZTE Nubia Z17 mini 64GB/4GB
+1328;16489;13;ZTE;ZTE Nubia Z9 Max
+1329;1881;5;ZTE;ZTE R340E
+1330;1309;7;ZTE;ZTE R341
+1331;1177;15;ZTE;ZTE R538
+1332;1034;9;ZTE;ZTE R550
+1333;7590;10;ZTE;ZTE V975
