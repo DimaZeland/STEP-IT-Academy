@@ -1,6 +1,6 @@
-1. Database data is read from file "Mobile.csv".
+1. Database data is read from file "Mobiles.csv".
 2. By default, the file is located at:
-"C:\\Users\\User\\source\\repos\\HomeTask\\HomeTask\\Mobile.csv"
+"C:\\Users\\User\\source\\repos\\HomeTask\\HomeTask\\Mobiles.csv"
 3. To change the file location of the file, change the string initialization of the variable in the file main.cpp
 (line 9) or enter the correct path to the file directly in the console when the program starts.
 When entering into the console, it is worth remembering that to enter a backslash, you must enter two backslashes 
@@ -9,9 +9,9 @@ When entering into the console, it is worth remembering that to enter a backslas
 
 
 Translating to Russian language:
-1. Данные базы считываются из файла "Mobile.csv".
+1. Данные базы считываются из файла "Mobiles.csv".
 2. По умолчанию файл расположен по адресу:
-"C:\\Users\\User\\source\\repos\\HomeTask\\HomeTask\\Mobile.csv"
+"C:\\Users\\User\\source\\repos\\HomeTask\\HomeTask\\Mobiles.csv"
 3. Для изменения адреса файла расположения файла измените строковую инициализацию переменной в файле main.cpp
 (строка 9) или введите правильный путь к файлу несопредственно в консоле при начале работы программы. 
 При  вводе в консоле стоить помнить, что для ввода обратной косой черты необходимо ввести две обратные косые черты
