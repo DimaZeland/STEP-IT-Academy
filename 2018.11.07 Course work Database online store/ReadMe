@@ -1,0 +1,19 @@
+1. Database data is read from file "Mobile.csv".
+2. By default, the file is located at:
+"C:\\Users\\User\\source\\repos\\HomeTask\\HomeTask\\Mobile.csv"
+3. To change the file location of the file, change the string initialization of the variable in the file main.cpp
+(line 9) or enter the correct path to the file directly in the console when the program starts.
+When entering into the console, it is worth remembering that to enter a backslash, you must enter two backslashes 
+(since one backslash is the first character of the control character).
+4. Admin password:admin
+
+
+Translating to Russian language:
+1. Данные базы считываются из файла "Mobile.csv".
+2. По умолчанию файл расположен по адресу:
+"C:\\Users\\User\\source\\repos\\HomeTask\\HomeTask\\Mobile.csv"
+3. Для изменения адреса файла расположения файла измените строковую инициализацию переменной в файле main.cpp
+(строка 9) или введите правильный путь к файлу несопредственно в консоле при начале работы программы. 
+При  вводе в консоле стоить помнить, что для ввода обратной косой черты необходимо ввести две обратные косые черты
+(так как одна обратная косая черта является первым знаком управляющего символа).
+4. Пароль админа: admin
