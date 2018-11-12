@@ -24,7 +24,7 @@ Product::operator=(const Product& a) { // explicit assignment operator
 
 std::ostream&
 operator<<(std::ostream& os, const Product& a) { // overload operator<<
-	os << "ID: " <<a.itsMyArticle << "\tPrice(UAH): " << a.itsMyPrice << "\tamount: " << 
+	os << "ID: " <<a.itsMyArticle << "\tPrice($): " << a.itsMyPrice << "\tamount: " << 
 		a.itsMyAmoung <<
 		"\tModel: " << a.itsMyModel << std::endl;
 	return os;

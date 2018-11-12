@@ -200,7 +200,7 @@ Menu::BuyMobilePhone() { // for user to buy mobile phone
 		std::cout << "\nWe apologize, currently all mobile phones of this model are sold out.\n";
 		return;
 	}
-	std::cout << "\nDo you really want to buy a mobile phone " << itsMyBase[ID - 1].itsMyModel << " for the " << itsMyBase[ID - 1].itsMyPrice << " UAH?\n" <<
+	std::cout << "\nDo you really want to buy a mobile phone " << itsMyBase[ID - 1].itsMyModel << " for the " << itsMyBase[ID - 1].itsMyPrice << " $?\n" <<
 		"Please enter Yes or No <Y/N>: ";
 	char decision = ' ';
 	std::cin >> decision;
@@ -259,7 +259,7 @@ Menu::InviteProduct() { // invine new product
 	std::cout << "\nPlease enter the number of pieces of this mobile phone: ";
 	int amount = 0;
 	std::cin >> amount;
-	std::cout << "\nPlease enter the price of one mobile phone of this model (UAH): ";
+	std::cout << "\nPlease enter the price of one mobile phone of this model ($): ";
 	double price = 0;
 	std::cin >> price;
 	Product pw(itsMyBase.size() + 1, price, amount, manufacturer, model); // create a separate item
@@ -292,7 +292,7 @@ Menu::EditProduct() { // edit product
 	itsMyBase[choise - 1].itsMyModel = itsMyBase[choise - 1].itsMyManufactured + ' ' + modelBuf;
 	std::cout << "\nPlease enter the new number of pieces of this mobile phone: ";
 	std::cin >> itsMyBase[choise - 1].itsMyAmoung;
-	std::cout << "\nPlease enter the new price of one mobile phone of this model (UAH): ";
+	std::cout << "\nPlease enter the new price of one mobile phone of this model ($): ";
 	std::cin >> itsMyBase[choise - 1].itsMyPrice;
 	std::cout << "\nInformation about the selected product successfully edited:\n";
 	FindMobileByID(choise);
