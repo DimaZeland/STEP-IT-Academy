@@ -1,0 +1,40 @@
+Homework No. 1
+OOP Classes Objects Fields and class methods. Access to fields and methods. Designers. Destructor Delegation (cascade) designers.
+Published on November 25, 2018
+
+Task 1
+Write a class "Account", which contains:
+•	Account number
+• The amount of funds on the account
+• The name of the currency of the account (dollars, hryvnia, euros, etc.), for which you can use one symbol: G, E, $ or counting type value, etc.
+Provide an opportunity:
+• Open an account and initially deposit money into an account (by default, open the account in UAH)
+• To withdraw money from the account
+• Make money on the account
+NOTE! On 12 points also realize the possibility to transfer money from one account to another. Note that accounts may be in different currencies.
+
+Task 2.
+Create an Int class that mimics the work of the standard int type.
+For example, let the code of the main program (in the function main ()) for the built-in int type looks like this:
+// using variables of the standard type int
+int a = 8, b = 3, res = 0;
+res = a + b;
+res = a / b;
+co << res << эndl;
+// using objects of type Int, the similar code will have the form
+Int a (8), b (3), res; // res: [0]
+res = a.sum (b); // res: [11]
+com << res.getValue () << enndl; // 11
+res = a.div (b); // res: [2]
+com << res.getValue () << enndl; // 2
+The only field of this class should be int.
+Create
+• Designers (by default and with one parameter)
+• Methods for accessing the class field
+• Method for outputting values ​​to the screen
+• The method of adding an Int instance to another instance of the Int class (for example, the summation may be performed by the prototype Int Sum (const Int & num)).
+• The method of subtracting from the given instance of the Int class another instance of the Int class
+• The method of multiplying this instance of the Int class for another instance of the Int class
+• The method of dividing this instance of the Int class into another instance of the Int class (note that division by 0 is not possible)
+Write the program in which will create three objects of class Int, two of which will be initialized. Add two initialized objects, assign a result to a third, and then display the result on the screen.
+NOTE! For 12 points, also implement a method that performs a similar operation * =.
