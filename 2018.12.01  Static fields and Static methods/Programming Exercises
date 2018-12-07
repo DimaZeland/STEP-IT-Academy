@@ -1,0 +1,37 @@
+OOP Designers. Destructor Cascade designers. A copy designer. Constructor of transformation. Explicit is a constructor. Static fields. Static methods.
+Issued on 01.12.2018
+
+Task 1
+Create a Class A Student with Fields
+- last name (dynamic field)
+- the number of ratings
+- estimates (dynamic array of ratings)
+- maximum and minimum valid ratings (static class constants)
+Identify methods
+- Designer (s)
+- copy designer
+- destructor
+- The method of student information output
+- access methods (getters, setters) to the field name
+- method of access (getter) to the number of subjects (grades)
+- method of placement (correction) of a student's assessment for a particular subject (check the correctness of the rating number (subject) and the assessment itself)
+
+Task 2.
+Create a water reservoir with fields
+- name
+- Type of reservoirs (lake, sea, etc.), preferably enum
+- width
+- length
+- maximum depth
+- static field of the number of reservoirs
+By methods
+- default constructor;
+- designer with parameters;
+- access methods (getters / setters);
+- definition of approximate volume (width * length * maximum depth);
+- determination of the area of ​​the water surface (volume (width * length);
+- Static logical method of checking whether two reservoirs belong to the same type (sea-sea; lake-lake);
+- static method for comparing the area of ​​the water surface: the method returns 1, if the first reservoir of a larger area, the method returns -1, if the first reservoir of a smaller area, 0 reservoirs of the same area.
+- static method of finding in the array of reservoirs the largest area of ​​the reservoir of the specified type
+
+Check the class work.
