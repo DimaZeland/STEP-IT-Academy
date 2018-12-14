@@ -1,0 +1,112 @@
+Homework No. 3
+Embedded Objects.
+Overloading operations (arithmetic, attitude) by class methods.
+Issued on 08/08/2018
+
+Task 1 (to complement the Fred's cool job).
+Define the Fraction class (numerator and denominator - goals).
+Define for class:
+o default constructor (fraction 0/1)
+o constructor with 1 parameter (denominator in fraction == 1)
+o constructor with 2 parameters (predict validation for the denominator)
+o access classes to class fields
+o the method of outputting a fraction to the screen in the form of a numerator / denominator
+o the method of reducing the fraction
+Operations
+o Adding (+) two fractions
+o adding (+) to the fraction of an integer (Fraction operator + (int number) const)
+o Subtracting (-) two fractions
+o multiplying (*) two fractions
+o Multiplying (*) fractions to an integer (Fraction operator * (int number) const)
+o dividing (/) two fractions (
+o (++) 2 forms, increase the fraction by 1
+o (-) 2 forms, decrease the fraction by 1
+o comparison of fractions (==,! =)
+o comparison of fractions (>, <) (class methods)
+
+Check overloaded operations
+Validation: the denominator should not be equal to zero; the denominator should not be negative
+(that is, the fraction 1/2 is converted to -1 / 2)
+Check the class work
+
+Task 2. (to complete the class assignment of Person, Group of persons)
+Define classes
+Person with fields
+o the person's name
+o person's surname
+o year of birth
+and methods
+o designers
+o methods for access to fields (getters, setters)
+o calculating the person's age
+o output information about the person
+o fill the person from the keyboard
+
+Group with fields
+o group leader (Persona)
+o number of persons
+o the dynamic array of persons in the group (Person * group)
+and methods
+o designers
+ by default - a group of 2 people, the name of the default group
+ with parameters - a group of a given number of people, the name of the default group
+ With parameters - a group of a given number of people, the name of the group is given
+o destructor
+o * copy designer
+o Output of information about the people of the group who are older than a certain age
+o average age group calculation
+o Changing the characteristics of a particular person
+o changing the characteristics of the coach group
+o Adding a group to a person
+o Removing a person from a group
+
+Check the class work of the class.
+____________________________________________________________
+* Instead of task 2, you can perform the following task.
+Write a program of work with trains, based on the classes Car (Train) and Train (Train). 
+The program suggests typing from the keyboard:
+ Number of trains;
+ The number of cars for each train.
+
+Based on the data entered, trains are created, general information about them and a set of the following reports are displayed:
+ The train was the largest number of passengers.
+ The train was the smallest number of passengers.
+
+The Car Class must contain:
+fields:
+ type of car (compartment, placecard, sleeping);
+ the number of passengers in the carriage
+methods:
+ designers
+ methods for access to fields
+ output information about the car
+
+The Train class must contain:
+fields:
+ train number;
+ name of the train (combination, for example, "Lviv-Kyiv");
+ field "wagons" - a pointer to the type of car, which will be allocated a dynamic memory size
+in the number of cars, where the index of this array indicates the number of wagon;
+ the number of cars (may be a field-constant).
+class train
+{
+const int size; // constant field, initialize in the list of initialization of the constructor
+int number;
+Car * train = new Car [size];
+// ....
+public:
+Train (int size, int number): size, number (number)
+{// ...
+}
+
+methods:
+ Designers: by default, with parameters and copying;
+ Standard methods of access to class fields;
+ Method for finding a wagon with the maximum number of passengers;
+ Method for finding a wagon with a minimum number of passengers;
+ A method for finding the total number of passengers on a train;
+ Method for displaying train information:
+ total number of passengers.
+ total number of cars.
+ the number of wagons in which the least number of passengers drove
+ the number of wagons in which the largest number of passengers drove.
