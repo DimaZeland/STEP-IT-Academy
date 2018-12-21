@@ -1,0 +1,52 @@
+Task 1 (to supplement the task of the Person, the Group of persons)
+Add classes to operations
+The person
+o = - assignment
+o () - calling function to change the name, surname of the person and age (year of birth)
+o << - output information about the person
+o >> - the introduction of the person
+Group
+o = Assignment
+o [] access to a particular Person by index
+o << - output information about the group
+o >> - entering group data
+
+
+Check the class work of the class.
+____________________________________________________________
+* Instead of Task 1, you can complete the Car-Train task.
+Operations:
+o = - assignment (for Car and Train)
+o [] access to a specific Wagon by index
+o () - call function to change the characteristics of the car
+o << - output information about the car
+o << - output information about the train
+o >> - entering data on the car
+
+Task 2
+Create a TV class (TV)
+with fields
+o TV status (on / off)
+o current volume of sound
+o current channel (channel number)
+o the number of channels in the TV (the constant field of the specimen!)
+o the maximum volume of the TV (the constant field of the specimen!)
+methods
+o the designer (s) (the TV was initially off)
+o power () - on / off (turning the TV on or off)
+o nextChannel () - switch to the next channel (works when the TV is turned on))
+o prevChannel () - switch to the previous channel (works when the TV is on))
+o incVolume () - to increase the volume
+o decVolume () - to decrease the volume
+
+Create a class Remote (TV remote control), friendly to the TV class.
+The Remote class must have methods
+o power () - on / off (turning the TV on or off)
+o nextChannel () - switch to the next channel of a certain TV (works when the TV is turned on))
+o prevChannel () - switch to the previous channel (works when the TV is on))
+o incVolume () - to increase the volume
+o decVolume () - to decrease the volume
+o goToChannel () switches to a channel by the number on a particular TV
+
+Check the class performance.
+* Provide the ability to control different TVs from one remote
