@@ -1,0 +1,24 @@
+OOP Inheritance. Manage access by inheritance. The order of calling constructors and destructors during inheritance. Multiple inheritance. 
+Conflicts with multiple inheritance. Virtual base class.
+
+Task 1
+o Identify the Passport class, which will contain passport information on a citizen of Ukraine (name, serial number and number).
+o Use the inheritance mechanism to implement the ForeignPassport class (passport) as a derivative of Passport. 
+The passport contains, except for passport data, also information about all issued visas. 
+The issued visas can be stored as an array (dynamic array) or a vector (vector <Visa> all). 
+Provide for the possibility of adding new passport visas.
+o Visa (class or structure) contains the name of the country and the date of validity of the visa.
+Test classes.
+
+
+Task 2a.
+Determine the required hierarchy of classes using multiple inheritance. Think of the type of imitation.
+Vehicle (manufacturer, maximum speed)
+| |
+                         The car (number of doors) The ship (number of turbines)
+\ /
+Amphibian
+Amphibia will have 2 names (the first - inherited from the class of the Machine, the second - from the class ship)
+
+Task 2b.
+Use the virtual base class to solve the problem of duplicating fields from the base class Vehicle in the Amphibian class.
