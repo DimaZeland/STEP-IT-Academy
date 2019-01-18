@@ -1,0 +1,51 @@
+Homework No. 6
+Early and late binding. Static and dynamic polymorphism. Virtual features are elements. Replacing virtual functions. Virtual Destroyer. Using the override, final specifiers.
+Pure virtual feature elements. Abstract classes. Abstract specification.
+
+Issued on January 12, 2019
+Task 1
+Create an abstract base class Shape containing:
+o pure virtual functions print (), printShapeName () - without implementation
+o the virtual functions of the area (), volume (), which return the null value.
+
+The Point class inherits the implementation of area (), volume () from the Shape class (the point has a zero area and volume).
+The Circle class inherits from the Point class implementation of volume (), but has its own implementation of area ().
+The Cylinder class has its own implementation of the functions area () and volume ().
+
+Create array (vector) shapes (pointers to the base class). Call up calculation methods for area, volume and output for each shape from the array.
+
+
+Task 2.
+Describe the classes "Swordsman", "Archer" and "Mage", each of which is an instance of the basic (possibly abstract) class "Unit" (piece, element) in a computer game and may attack, evade attacks and die.
+The swordman has 15 hit-points (lives), damage at attack 5, a chance to evade 60%.
+Archer: 12 hp, 4 dmg, 40% dodge
+Magician: 8 hp, 10 dmg, 30% dodge
+-------------------------------------------------- -------------------------------------------------- --------
+Describe the "Team" class in which there are fields
+o the name of the team
+o an array or vector of three (or more) units,
+and the type of unit (swordsman, archer or magician) should be set by accident, when filling out the command (at the beginning of the game).
+
+Write Methods:
+o Inspections or team are not killed players
+o output of team players
+-------------------------------------------------- -------------------------------------------------- --------
+Describe the "Game" class containing 2 teams of the warring parties
+
+Possible variants of the warring parties: three archers against a swordman and two magicians, or - an archer, a swordsman and a magician against two swordman and archer, etc. (with the number of players in team 3).
+
+Describe the method of battle between the TEAMS, until the fighters of one side of everything will not perish. In the console, at the same time, send out a message about who attacked, whether the attack was successful, how much life left the victim or whether it died. Let the battle take place gradually, by pressing the spacebar (space bar) so that we can observe his attack on the attack.
+
+At the end of the battle, declare which team has won (first / second, blue / red, alliance / orcs, etc.).
+.................................................. .................................................. ...........
+Rules of battle: Each fighter (Warrior, Archer or Magician) searches for the enemies of his rival and attacks him.
+Let's say if we have the following commands:
+A11 - M21
+A12 - S22
+S13 - A23
+... then A11 should choose its target A23.
+
+If enemies of their type are not found, then let the fighters attack an arbitrary opponent.
+
+You can check the type of player using the typeid operation.
+if (typeid (archer) == typeid (* team [i])), here team [i] is a pointer to Unit.
