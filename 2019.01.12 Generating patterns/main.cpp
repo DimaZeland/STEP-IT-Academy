@@ -6,15 +6,15 @@ int main() {
 	int ch = 0;
 	std::cin >> ch;
 	GUIFactory* factory = nullptr;
-	switch (ch){
+	switch (ch) {
 	case 0:
-		factory = new WinFactory;
+		factory = WinFactory::getWinFactory();
 		break;
 	case 1:
-		factory = new MacFactory;
+		factory = MacFactory::getMacFactory();
 		break;
 	default:
-		factory = new WinFactory;
+		factory = WinFactory::getWinFactory();
 		break;
 	}
 	Application* qapp = new Application(factory);
