@@ -12,17 +12,17 @@ public:
 	virtual void paint() abstract;
 };
 
-class WinButton: public Button {
+class WinButton : public Button {
 public:
 	void paint() override final { std::cout << "\nWinButton create!"; }
 };
 
-class MacButton: public Button {
+class MacButton : public Button {
 public:
 	void paint() override final { std::cout << "\nMacButton create!"; }
 };
 
-class CheckBox abstract{
+class CheckBox abstract {
 public:
 	virtual ~CheckBox() {}
 	virtual void paint()abstract;
@@ -38,7 +38,6 @@ public:
 	void paint()override final { std::cout << "\nMacCheckBox create!"; }
 };
 
-
 class GUIFactory abstract {
 public:
 	virtual ~GUIFactory() {}
@@ -46,13 +45,24 @@ public:
 	virtual CheckBox* CreateCheckBox() abstract;
 };
 
+
 class WinFactory : public GUIFactory {
+protected:
+	WinFactory() {}
+	static WinFactory* winfactory;
+public:
+	static WinFactory* getWinFactory();
 public:
 	virtual Button* CreateButton() override final { return new WinButton; };
 	virtual CheckBox* CreateCheckBox() override final { return new WinCheckBox; };
 };
 
 class MacFactory : public GUIFactory {
+protected:
+	MacFactory() {}
+	static MacFactory* macfactory;
+public:
+	static MacFactory* getMacFactory();
 public:
 	virtual Button* CreateButton() override final { return new MacButton; };
 	virtual CheckBox* CreateCheckBox() override final { return new MacCheckBox; }
@@ -64,19 +74,7 @@ private:
 	CheckBox* checkbox;
 	GUIFactory* factory;
 public:
-	Application(GUIFactory* Factory): factory(Factory){}
+	Application(GUIFactory* Factory) : factory(Factory) {}
 	void CreateUI();
-	inline void paint();
+	void paint();
 };
-
-void
-Application::CreateUI() {
-	button = factory->CreateButton();
-	checkbox = factory->CreateCheckBox();
-}
-
-void
-Application::paint() { 
-	button->paint();
-	checkbox->paint();
-}
