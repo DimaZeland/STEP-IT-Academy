@@ -1,0 +1,8 @@
+Patterns of design. Homework No. 1.
+Generating patterns. Singleton. Abstract factory. Published on January 12, 2019
+Task 1. Use template Abstract Factory. Create a factory to create buttons and flags for Windows, Macintosh depending on user selection.
+Create a Client class to check the work of the factories.
+A class diagram like https://refactoring.guru/uk/design-patterns/abstract-factory
+
+Task 2.
+In the realization of the pattern abstract factory (Abstract factory) task 1 to make all the factories as Singleton (Singleton).
