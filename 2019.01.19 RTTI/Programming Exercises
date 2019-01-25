@@ -1,0 +1,83 @@
+Homework No. 7
+Converting C ++ types (static_cast <>, const_cast <>, reinterpret_cast <>). Library RTTI (typeid, dynamic_cast <>).
+Templates for classes.
+Issued on January 19, 2019
+
+Task 1
+Create a hierarchy of classes Grandpa-> Daddy-> Son.
+o Grandpa class has a virtual function Sleep ().
+o Classes Daddy and Son have virtual Walk () functions.
+o The Son class has a virtual Play () function.
+Create an array of pointers to the base class.
+Defining a global function that receives an array (or vector) of pointers for objects and for each object causes the correct set of virtual methods.
+Solve the problem in two ways
+o use the dynamic_cast <> (done in class) operation.
+o use typeid () operation.
+
+Task 2.
+Check if you can "remove" the sstn by using the sonnst_cast operation <> from
+C string (const char * t = "my text")
+C + + string (const string * ps = new string ("my test"))
+Const instance of the class (const int field)
+
+Give an example of the use of const_cast <>.
+*** For example, the const method calls NOT a const method
+
+Task 3
+Create a template class A vector that represents a dynamically expandable array of a particular type.
+Define Fields:
+• T * buffer - pointer to a dynamic array of integers;
+• capacity - size of the array (with stock),
+• size - the actual size of the vector (the actual number of vector elements)
+Define the following class methods:
+• Change capacity method: void reserve (size_t newCapacity), data is not lost when increasing capacity, not allowing capacity reduction
+• The method of changing the actual length of the array void resize (size_t newSize, T value = 0), the array capacity if needed - increases
+• Constructors with parameters (use designer delegation)
+Vector (size_t size) - reserves the memory for the array, actual size = size, capacity - your formula, elements - zeros
+Vector (size_t size, T value) - reserves the memory for the array, actual size = size, capacity - your formula, elements = value
+
+• Designer by default - the array is empty
+• The copy designer
+• Destroyer
+• The method of access (for reading) to the fields of capacity and size
+• The verification method or vector is empty (is the current length = 0, bool empty ())?
+• Method of installing (changing) an item by index (void setValue (size_t index, T value)
+• Method of access (reading) an item by index
+• The method of adding a new element (pushBack (const T & elem)) at the end of the array (thus, if you want to change the capacity)
+• The method for extracting the last item (void popBack ()), check whether it can be deleted
+• The method that returns the reference to the first element of the vector T & front () if the vector is empty to return the reference to some static local variable of the method
+T & front ()
+{
+T static errorFront = 0;
+if (empty ())
+return errorFront;
+// ....
+}
+• A method that returns the reference to the last element of the vector T & back () if the vector is empty to return the link to a certain static local variable of the method
+• The method of inserting a new item by the specified index (validate the index)
+• Method for extracting an item by index (validate index)
+• Void clear ()), capacity not to change
+• Array method
+• Overload the indexing operation [], which will provide access to the vector element by index (validate index)
+• Overload Assignment =
+• Overload I / O operations <<, >>
+
+Test class template work for types int, double, string, person
+Vector <int> v1 (2); // actual size = 2, zero elements, buffer -> [0] [0],
+// buffer - may point to a larger plot if capacity is greater (capcity = 4, then buffer -> [0] [0] [.] [.])
+v1.pushBack (10);
+v1.pushBack (20);
+cout << "The size of v is" << v.getSize () << endl; // 4
+cout << "The capacity of v is" << v.getCapacity () << endl; //> = 4, some sort of your formula, n-d, if the capacity is not enough you can increase the capacity of the array with a certain coefficient (1.5 or 2)
+v1.print (); // 0 0 10 20
+cout << v1 [2] << "" << v [3] << endl; // see 10 20
+for (size_t i = 0; i <v1.getSize (); ++ i) // removed all elements of the vector
+cout << v1 [i] << "\ t";
+if (! v1.empty ()) // if not empty
+v1.popBack (); // removed the last one
+v1.print (); // 0 0 10
+cout << "The size of v is" << v.size () << endl; // 3
+v1.reserve (20); // capacity = 20, size = which was (3)
+v1.front () = 1234; // the first element was replaced by 1234
+v1.clear ();
+cout << "The size of v after clearing is" << v.size () << endl; // 0
