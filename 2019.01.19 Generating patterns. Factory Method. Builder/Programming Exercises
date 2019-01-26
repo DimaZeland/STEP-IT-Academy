@@ -1,0 +1,14 @@
+Patterns of design. Homework No. 2.
+Generating patterns. Factory Method. Builder.
+Issued on January 19, 2019
+Task 1
+The building's construction contains the following steps: foundation gutter, walls, roofs, windows and doors. Make a program to perform (and deduce) the steps of constructing and calculating the cost of building a house. Use pattern designer builder.
+
+Task 2.
+Create a Barrack class that creates Unite objects.
+Create classes
+o Military Barak, which creates objects such as Marine Pyotyonets,
+o Scientist Barak, who creates objects such as Crazy Scientist,
+o Medical Barak, which creates objects like Military Doctor.
+To construct appropriate hierarchies of classes, to correctly define factory methods of creation. Units must differ in characteristics: health, maximum damage.
+Use when performing task Factory method in classical implementation.
