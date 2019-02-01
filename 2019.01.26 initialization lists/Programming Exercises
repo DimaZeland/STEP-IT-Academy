@@ -1,0 +1,34 @@
+Homework No. 08
+Use the initialization lists (std :: initializer_list <>).
+Dynamic data structures: stack, queue, priority queue.
+
+Published on January 26, 2019
+
+Task 1
+Create a function template that takes the initialization list (std :: initalizer_list) as a parameter and returns the smallest and largest elements of the initialization list. The result is rotated in the form of a template structure of two fields (minimum, maximum).
+template <typename T>
+struct result
+{
+T minimum, maximum;
+};
+template <typename T>
+result <T> max_min (const std :: initializer_list <T> & list)
+{
+// your code
+}
+Check the function template job.
+
+Task 2.
+Write the program with three classes - automatic machine, shop, nabia.
+Each number is numbered (numbering is consistent and when the program starts from a random number) and is able to shoot and hit the target with a probability of 70%. Each program has a unique number.
+The store is realized in the form of a stack, contains 30 packs and can:
+o charge the nabia (gets it ready)
+o give up (top)
+
+The machine is able to:
+o take the store (that is, you can change the stores in the machine)
+o shoot - ask the store to give 1 nap, and if you give it, ask for a shot at the shot (the nail will say, or hit, and the machine will pass the result "up")
+
+When a shot in the console should be displayed messages of the following type:
+The machine shot bullet 5 and missed.
+The machine shot bullet 6, and struck.
