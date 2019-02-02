@@ -1,0 +1,19 @@
+Patterns of design. Homework No. 3.
+Generating Patterns .. Prototype (Prototype).
+Structural patterns. Adapter. Facade. Bridge.
+Published on January 26, 2019
+Task 1. Prototype.
+Demonstrate the creation of different types of weapons for some game (you can supplement the task of units). The program defines an array of weapon objects (prototypes). Apply Pattern Prototype.
+Task 2. Adapter
+Create a Car class with methods Start (), Stop (), Left (int angle), Right (int angle).
+Adapt the Car class to the Console Console (CarConsole) interface.
+
+The CarConsole interface offers the methods Stop (), Run (), Rotate (int angle), where angle is the angle of the car, the negative angle means the left turn, the positive - the turn to the right.
+Create a Driver class that can manage the car with the control console. That is, the Driver can operate an arbitrary vehicle that supports the CarConsole interface.
+
+
+Task 3. To choose one of the tasks using the Bridge Pattern.
+a) Make a program that provides the creation of a daily and weekly sales report for some store in the text file format and string.
+b) Create a program for calculating the programmer's labor cost. The programmer can work on freelance or (i) be a company employee.
+The programmer can perform tasks in a specific programming language (C ++, C #, etc.). Every hour of work is paid depending on the programming language.
+An employee of the company pays taxes in addition to the earned amount.
