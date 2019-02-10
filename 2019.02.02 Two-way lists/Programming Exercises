@@ -1,0 +1,17 @@
+Two-way lists
+Create a Class List Template (CDlist <T>). Define methods in the template class
+o Adding a new item to the top of the list
+o adding a new item to the tail of the list
+o Removing an item from the list header
+o Removing an item from the tail of the list
+o Removing all items
+o Removing an item by value
+o List items from left to right
+o View list items from right to left
+o insert a new node to the given one
+o inserting a new node after the given one
+o search and replace the given item (method returns the number of executed substitutions)
+o rotation of the list (it is desirable to perform a rearrangement of nodes, not values ​​in nodes)
+o operation + to concatenate (merge) two lists into a third (the result of the operation, with the merging lists not changing)
+o operation * to form a section of two lists in the third list (the result of the operation),
+the section of the two lists contains their common elements without repetition
