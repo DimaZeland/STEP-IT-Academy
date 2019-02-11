@@ -1,0 +1,44 @@
+Patterns of design. Homework No. 4.
+Structural patterns. Facade. Substitute. (Proxy). Component (Composite).
+Published 02.02.2019
+Task 1
+Create classes Client, Bank, Account (account number, password, amount). In the Account class, you can define methods for 
+obtaining information about funds on an account and debiting a certain amount.
+Create a class ATM, which will provide services for withdrawal of money and account information for a particular customer. 
+Use the Proxy pattern.
+
+Task 2.
+Create a program that mimics the creation of a file system tree (files and folders).
+For each file, save the name and size.
+Provide an opportunity
+• View file information
+• view the contents of the folder
+• calculate folder size
+class ItemFS // interface
+{
+// ...
+};
+class file: public ItemFS
+{// ...
+};
+int main ()
+{
+ItemFS * fileZ = new File ("z.doc", 12000);
+ItemFS * fileW = new File ("w.doc", 23000);
+ItemFS * folderA = new Folder ("A");
+ItemFS * folderB = new Folder ("B");
+folderB-> addItem (fileW);
+folderA-> addItem (fileZ);
+floderA-> addItem (folderB);
+cout << fileZ-> getSize () << endl;
+cout << folderA-> getSize () << endl; // 12000 + 23000 = 35000
+}
+Task 3 *. Facade
+Create a translator program for working with a dictionary that allows you to translate texts from one language to another. 
+Create a set of classes:
+o Word (word-translation combination)
+o Collection of Words (list of words and methods of processing the list, indexer - by word returns translation);
+o Translator (works with a collection of words, translates to screen (or returns), allows you to change the collection of words),
+o Recording (writes a collection of words into a file, reads from a file),
+o The facade (encapsulates all the objects of the classes of the program, provides methods for calling the user from the main () - 
+function).
