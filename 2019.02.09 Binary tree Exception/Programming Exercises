@@ -1,0 +1,41 @@
+Homework No. 10
+Binary trees. Tree of binary search.
+The notion of exclusion. Exclusion Exclusion Exclusion processing. Throw operator Blocks try, catch.
+Object-oriented exception handling.
+Class of exception Hierarchy of standard exclusion classes.
+
+Published on 02/09/2019
+
+Task 1
+Implement the SAI database for penalty receipts using a binary tree (binary search tree).
+Each tree element must contain
+o key (car number);
+o value (list of offenses: vector <violation>, where violation (name, date, amount of fine) - 
+structure or class describing one offense). )
+o necessary pointers for binding tree elements.
+If the receipt is added for the first time, then a new node appears in the tree, 
+and the data on the first offense is listed in the list of violations; if the information on the 
+violation of the auto in the tree is available, the data on the new offense is recorded in the found site of the car 
+(in the list of offenses).
+You must also implement the following operations:
+o Full print out of the database (machine numbers and their offenses)
+o Prints data on the given number of cars
+o Prints data over the range of numbers
+o Cleaning the base
+
+Task 2.
+Create Auto with fields:
+car number (in AB1234CD format)
+maximum speed of the car
+current car speed
+Create methods in the Auto class
+methods of access to fields (getters, setters)
+method of speed increase (default by 5)
+speed reduction method (default by 5)
+ Create in the classroom auto own classes of exceptions WrongSpeed, WrongMaxSpeed ​​and InvalidNumber, 
+ which encapsulate the incorrect given and error messages.
+
+o The Auto class should throw off the WrongMaxSpeed ​​type when setting a maximum speed of more than 360
+o The Auto class should throw out the WrongSpeed ​​type exception when setting or reaching a speed exceeding the maximum
+o The class should throw an InvalidNumber type exception when installing the wrong auto number
+Create a program to test the work of the exceptional situations of the Auto class.
