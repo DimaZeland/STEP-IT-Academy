@@ -1,0 +1,12 @@
+Patterns of design. Homework No. 5.
+Structural patterns. Decorator.
+Behavioral Patterns. Strategy Template method.
+Published on 02/09/2019.
+Task 1. In the program - a game developed on past classes to add the ability to create different types of units. 
+Each unit can be added to the modifications to different types of units: an armored unit, an accelerated unit, 
+and an exact unit. Use Pattern Decorator.
+
+Task 2. Make a program that will sort the container (vector <string>) words in different ways:
+o alphabet;
+o by the number of letters (if the number of letters is the same, then the first must have the word less than the alphabet)
+Use Pattern Strategy.
