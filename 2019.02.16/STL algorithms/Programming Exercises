@@ -1,0 +1,35 @@
+C ++. OOP. House number 11
+Ієrarhіya streaming classes. Camp flow. File streams. Processing text files.
+Stl. Fundamentals (container, iterator, algorithm).
+Container stl: array <>, vector <>.
+
+Seen 2/16/2019
+
+Scam 1.
+Make a program, yak Vikonu є encrypt (decrypt file). The cipher is possible with the Viconati key 1 (more than one number).
+If the key is encrypted key 1, then the symbol is encoded when encrypting to lock in on the next table. If the key is encrypted pvn 2, 
+then the symbol for ciphering will be replaced by a symbol with a code of 2 for the code page.
+Interval functions for encrypting and decrypting a file. Result rozmіshuvati at іnshomu file.
+
+Scam 2.
+Start a program, yak pratsyu podіbno standard programs Commander Row. Tobto Program Ochiku team and Vicon. Vihon programmers 
+Vikonuvati for the command exit abo quit. Real command team:
+o create filename (text file, completed input - Ctrl-Z combination)
+o print filename (view text file on screen)
+o append filename (additional text file, completed input - combination Ctrl-Z)
+o copy filename1 filename2 (copying file)
+With the introduction of new nevirnoi commanders or of a non-paramount dispatch to the file,
+the program is guilty of seeing the secondary branch (“Nevirna team”, “Nevirna kіlkist parametriv”, “Nevirnyi valy to file”).
+
+Zavdannya 3.
+1. Move the container array (array <> arr) for 10 (12) numbers. Array proіnіtsіalіzuvati chi zapovniti VIP rank.
+2. Make 2 vectors of numbers v1, v2, give me your best friend and half to the arr array, vrdovіdno.
+3. Translate the skin application vectors (random_shuffle) and insert the vector on the screen
+4. Angry vectors in the middle of a vihid array (v1, v2 ---> arr)
+5. Know the minimum and maximum elements of the array. Take a look at your masses (min_element)
+6. Enter a number from the keypad, specify the number in the find (find)
+7. Skopuyuvatsi tricymetric elements (yak before and after) in the new vector v3 (in front of each other, 
+the counting algorithm of the vector).
+8. Know the first login entry for a whole number of (yakso є) find_if
+9. Viveti index usih elements, multiple 5 (find_if).
+10. Zіbrati vse elementi kratnі 5 at the right of the vector (copy_if)
