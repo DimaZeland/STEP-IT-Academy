@@ -1,0 +1,14 @@
+Patterns of design. Homework No. 6.
+Behavioral Patterns. Observer Chain of Responsibility
+Published on February 16, 2019
+
+Task 1
+Create a program using the Pattern Observer. Subject of observation - the dollar rate (or euro). 
+Observers - clients (bank, broker). With an increase (decrease) in the rate, observers sell (buy) currency.
+Task 2.
+Make an ATM program (issuing money). At the beginning of the program, a certain number of bills of every 
+denomination is downloaded to the ATM. Let the ATM issue bills in denominations of UAH 100, UAH 50, UAH 20. 
+and 5 UAH The client comes to the ATM with a request for a certain amount of money. The program should give an 
+answer on the possibility of issuing such amount (it is desirable to add in addition how many bills were used to pay the sum).
+After servicing a certain customer, the number of corresponding (issued) banknotes decreases.
+Use the Chain of Responsibility pattern.
