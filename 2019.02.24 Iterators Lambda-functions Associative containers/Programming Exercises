@@ -1,0 +1,39 @@
+C ++. OOP Homework No. 12
+STL Library. Iterators Types of iterators.
+Algorithms.
+Lambda -functions.
+Set <>, multiset <>.
+Map <>, multimap <>.
+
+
+Published on 02/24/2019
+
+Task 1
+Fill the Fibonacci Container (vector, deck, etc.) using the generate () and lambda algorithm.
+
+Task 2.
+Create a program that creates the set of C ++ words (if, switch, ...) encountered in a text file with the C ++ program.
+
+
+Task 3
+To write the program "Automated information system of the railway station". The system contains: 
+information about the departure of trains. For each train indicate: number, departure time, destination station. Provide:
+o Data entry into the system (or download from the file);
+o Supplementing the system with new data;
+o Output information about all trains at the user's choice (as numbers grow, in direction or at departure time);
+o Information about a specific train (find_if);
+o Removing trains from the system
+Use vector (deck), iterators, algorithms, lambda.
+
+Task 4.
+There is a file with data about the names of countries and cities. Implement a program that will allow
+upload data from file
+save data to file
+look for cities in a specific country,
+replace the name of the city
+add cities and countries
+delete cities and countries,
+count the number of cities,
+display country list.
+ When programming an application, be sure to use the lambda mechanism.
+Use the map <> or multimap <> to choose from
