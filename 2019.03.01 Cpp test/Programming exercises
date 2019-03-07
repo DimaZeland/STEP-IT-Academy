@@ -1,0 +1,11 @@
+1. Supermarket ----
+Create a hierarchy of classes to represent Supermarket products
+Product (name, term of consumption, category - dairy, bakery, etc., price, quantity)
+Goods (name, category - household chemicals, textiles, etc., price, quantity)
+Create a Supermarket app
+Adding a product (product) to the base (take into account that the goods in the database may be available or not)
+Saving the product base (to the file)
+Download the product base from the file
+View products (items) sorted by category
+Search for a specific product (product) with delivery of product information (product)
+Deleting a specific product (product) from a database
