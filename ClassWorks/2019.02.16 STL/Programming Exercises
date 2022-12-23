@@ -1,0 +1,23 @@
+--------------- Containers stl: array <>, vector <> --------------
+Task 1
+1. Create a container array (array <> arr) of as many as 10 (12) numbers.
+Array to initialize or fill in the whip. way (generate)
+
+2. Create 2 vectors of integers v1, v2 that contain the first and second half of the arr array respectively. (copy, ctor)
+
+3. Mix the elements of each vector (random_shuffle) and display the vectors on the screen
+
+4. Fold the vectors one by one into the output array (v1, v2 ---> arr) (copy)
+
+5. Find the minimum and maximum elements in the array. Swap them in array (min_element)
+
+6. Enter an integer from the keyboard, check whether the given number is in the array (find)
+
+7. Copy the three-digit elements (both positive and negative) into the new vector v3
+(pre-compute the desired length of the vector by count_if algorithm).
+
+8. Find the index of the first occurrence of a negative number (if any) find_if
+
+9. Display the indexes of all elements, multiple 5 (find_if).
+
+10. Collect all items multiple 5 in a separate vector (copy_if)

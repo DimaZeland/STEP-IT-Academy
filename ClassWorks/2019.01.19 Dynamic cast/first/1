@@ -1,0 +1,87 @@
+/*
+https://drive.google.com/drive/folders/1wPPlVandUQO1qtYX4uFFUC1wMB19VyjT
+*/
+template <typename T>
+class Vector
+{
+T * buffer = nullptr;
+size_t size = 0;
+size_t capacity = 0;
+
+public :
+void reserve(size_t newCapacity)
+{
+if (newCapacity <= capacity)
+{
+return;
+}
+// [11][22][33][][][][]][]   
+// [11][22][33][][][][][][][][]][][][][][][][][]
+
+T * result = new T[newCapacity]{};
+for (int i = 0; i < size; ++i)
+{
+result[i] = buffer[i];
+}
+delete[] buffer;
+buffer = result;
+capacity = newCapacity;
+
+}
+
+void resize(size_t newSize, const T & value = T() )
+{
+if (newSize > capacity)
+{
+reserve(newSize * 2);// 10 [][][][][] [][][]
+}
+for (size_t i = size; i < newSize; ++i)
+{
+buffer[i] = value;
+}
+size = newSize;
+
+}
+void pushBack(const T &elem)// [1][2][3][44444][][][][][][][]
+{
+resize(size + 1, elem);
+}
+
+void print()const
+{
+cout << "Your vector is :\n";
+for (int i = 0; i < size; ++i)
+{
+cout << buffer[i] << "\t";
+}
+cout << endl;
+}
+size_t getCapacity() const 
+{
+return capacity;
+}
+size_t getSize() const
+{
+return size;
+}
+};
+
+
+int main()
+{
+
+Vector<int> v;
+//v.reserve(10);
+v.resize(3, -1);
+v.print();
+v.pushBack(11);
+v.pushBack(22);
+v.pushBack(33);
+v.pushBack(44);
+v.print();
+
+
+cout << "size = " << v.getSize() << "\tcapacity = " << v.getCapacity() << endl;
+
+
+return 0;

@@ -1,0 +1,6 @@
+Implement the simplest task scheduling system using design patterns. It should be possible to create a to-do list,
+set priorities, set up
+dates of completion, deletion and change of cases.
+Each case can be tagged. To-do list can be downloaded and saved to file. It is necessary to realize the opportunity
+search for a specific case. Search criteria: by date, by tag, by
+priority and so on.

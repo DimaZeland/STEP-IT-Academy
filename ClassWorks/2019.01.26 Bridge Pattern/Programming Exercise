@@ -1,0 +1,3 @@
+Create a program for calculating the programmer's labor cost. The programmer can work on freelance or (i) be a company employee.
+The programmer can perform tasks in a specific programming language (C ++, C #, etc.). Every hour of work is paid depending
+on the programming language.
