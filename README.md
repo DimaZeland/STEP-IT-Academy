@@ -1,2 +1,2 @@
-# Hometasks
-Tasks and solutions to various tasks in C ++ programming
+# STEP IT Academy
+Solutions to various tasks in C ++ programming.
