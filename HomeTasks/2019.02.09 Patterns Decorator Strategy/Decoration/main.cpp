@@ -3,11 +3,11 @@
 #include"Builder.h"
 
 int main() {
-	srand(time(NULL));
-	Game game;
-	game.GameCourse();
+    srand(time(NULL));
+    Game game;
+    game.GameCourse();
 
-	system("pause");
+    system("pause");
 
-	return 0;
+    return 0;
 }

@@ -1,85 +1,81 @@
 #include "Builder.h"
 
 void
-BinaryTree::AddNode(int num, Violation offense, Node* &MyTree) {
-	if (nullptr == MyTree) { // create binary tree root
-		MyTree = new Node(num, offense);
-		MyTree->l = MyTree->r = nullptr;
-	}
+BinaryTree::AddNode(int num, Violation offense, Node *&MyTree) {
+    if (nullptr == MyTree) { // create binary tree root
+        MyTree = new Node(num, offense);
+        MyTree->l = MyTree->r = nullptr;
+    } else if (num == MyTree->number)
+        MyTree->offenses.push_back(offense);
 
-	else if (num == MyTree->number)
-		MyTree->offenses.push_back(offense);
-
-	else if (num < MyTree->number) {
-		if (MyTree->l != nullptr)
-			AddNode(num, offense, MyTree->l);
-		else {
-			MyTree->l = new Node(num, offense);
-			MyTree->l->l = MyTree->l->r = nullptr;
-		}
-	}
-
-	else if (num > MyTree->number) {
-		if (MyTree->r != nullptr)
-			AddNode(num, offense, MyTree->r);
-		else {
-			MyTree->r = new Node(num, offense);
-			MyTree->r->r = MyTree->r->l = nullptr;
-		}
-	}
+    else if (num < MyTree->number) {
+        if (MyTree->l != nullptr)
+            AddNode(num, offense, MyTree->l);
+        else {
+            MyTree->l = new Node(num, offense);
+            MyTree->l->l = MyTree->l->r = nullptr;
+        }
+    } else if (num > MyTree->number) {
+        if (MyTree->r != nullptr)
+            AddNode(num, offense, MyTree->r);
+        else {
+            MyTree->r = new Node(num, offense);
+            MyTree->r->r = MyTree->r->l = nullptr;
+        }
+    }
 }
 
 void
-BinaryTree::DeleteNode(Node* &MyTree) {
-	if (MyTree) {
-		DeleteNode(MyTree->l);
-		DeleteNode(MyTree->r);
-		delete MyTree;
-		MyTree = nullptr;
-	}
+BinaryTree::DeleteNode(Node *&MyTree) {
+    if (MyTree) {
+        DeleteNode(MyTree->l);
+        DeleteNode(MyTree->r);
+        delete MyTree;
+        MyTree = nullptr;
+    }
 }
 
-std::ostream&
-operator<<(std::ostream & os, Violation & V) {
-	os << "\nname: " << V.name << ", date: " << V.date << ", sum: " << V.sum << "UAH\n";
-	return os;
+std::ostream &
+operator<<(std::ostream &os, Violation &V) {
+    os << "\nname: " << V.name << ", date: " << V.date << ", sum: " << V.sum << "UAH\n";
+    return os;
 }
 
-std::ostream&
-operator<<(std::ostream & os, Node & n) {
-	os << "\nnumber: " << n.number << "\n";
-	for (auto& x : n.offenses)
-		os << x;
-	return os;
-}
-
-void
-BinaryTree::ShowAllBaseInfo(Node* &MyTree) {
-	if (MyTree) {
-		ShowAllBaseInfo(MyTree->l);  // Рекурсивная функция для вывода левого поддерева
-		std::cout << *MyTree;        //Отображаем корень дерева
-		ShowAllBaseInfo(MyTree->r);  //Рекурсивная функци для вывода правого поддерева
-	}
+std::ostream &
+operator<<(std::ostream &os, Node &n) {
+    os << "\nnumber: " << n.number << "\n";
+    for (auto &x: n.offenses)
+        os << x;
+    return os;
 }
 
 void
-BinaryTree::ShowCustomNodeInfo(int& num, Node* &MyTree) {
-	if (MyTree) {
-		if (num == MyTree->number)
-			std::cout << *MyTree;
-		else if (num < MyTree->number)
-			ShowCustomNodeInfo(num, MyTree->l);
-		else if (num > MyTree->number)
-			ShowCustomNodeInfo(num, MyTree->r);
-	}
+BinaryTree::ShowAllBaseInfo(Node *&MyTree) {
+    if (MyTree) {
+        ShowAllBaseInfo(MyTree->l);  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+        std::cout << *MyTree;        //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+        ShowAllBaseInfo(MyTree->r);  //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    }
 }
 
 void
-BinaryTree::ShowCustomNodeDiapazoneInfo(int& numFirst, int& numLast, Node* &MyTree) {
-	if (MyTree) {
-		ShowCustomNodeDiapazoneInfo(numFirst, numLast, MyTree->l);  // Рекурсивная функция для вывода левого поддерева
-		if (MyTree->number >= numFirst && MyTree->number <= numLast)
-		std::cout << *MyTree;        //Отображаем корень дерева
-		ShowCustomNodeDiapazoneInfo(numFirst, numLast, MyTree->r);  //Рекурсивная функци для вывода правого поддерева
-	}
+BinaryTree::ShowCustomNodeInfo(int &num, Node *&MyTree) {
+    if (MyTree) {
+        if (num == MyTree->number)
+            std::cout << *MyTree;
+        else if (num < MyTree->number)
+            ShowCustomNodeInfo(num, MyTree->l);
+        else if (num > MyTree->number)
+            ShowCustomNodeInfo(num, MyTree->r);
+    }
+}
+
+void
+BinaryTree::ShowCustomNodeDiapazoneInfo(int &numFirst, int &numLast, Node *&MyTree) {
+    if (MyTree) {
+        ShowCustomNodeDiapazoneInfo(numFirst, numLast, MyTree->l);  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+        if (MyTree->number >= numFirst && MyTree->number <= numLast)
+            std::cout << *MyTree;        //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+        ShowCustomNodeDiapazoneInfo(numFirst, numLast, MyTree->r);  //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    }
 }

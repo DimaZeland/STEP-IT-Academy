@@ -1,31 +1,31 @@
 #include "GUIFactory.h"
 
-MacFactory* MacFactory::macfactory = nullptr;
+MacFactory *MacFactory::macfactory = nullptr;
 
-WinFactory* WinFactory::winfactory = nullptr;
+WinFactory *WinFactory::winfactory = nullptr;
 
-WinFactory*
+WinFactory *
 WinFactory::getWinFactory() {
-	if (winfactory == nullptr)
-		winfactory = new WinFactory;
-	return winfactory;
+    if (winfactory == nullptr)
+        winfactory = new WinFactory;
+    return winfactory;
 }
 
-MacFactory*
+MacFactory *
 MacFactory::getMacFactory() {
-	if (macfactory == nullptr)
-		macfactory = new MacFactory;
-	return macfactory;
+    if (macfactory == nullptr)
+        macfactory = new MacFactory;
+    return macfactory;
 }
 
 void
 Application::CreateUI() {
-	button = factory->CreateButton();
-	checkbox = factory->CreateCheckBox();
+    button = factory->CreateButton();
+    checkbox = factory->CreateCheckBox();
 }
 
 void
 Application::paint() {
-	button->paint();
-	checkbox->paint();
+    button->paint();
+    checkbox->paint();
 }

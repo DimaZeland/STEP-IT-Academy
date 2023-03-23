@@ -2,9 +2,9 @@
 #include"Sheep.h"
 
 int main() {
-	Sheep obj;
+    Sheep obj;
 
 
-	system("pause");
-	return 0;
+    system("pause");
+    return 0;
 }

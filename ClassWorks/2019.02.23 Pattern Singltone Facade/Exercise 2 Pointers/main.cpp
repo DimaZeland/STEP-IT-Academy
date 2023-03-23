@@ -4,13 +4,13 @@
 unsigned int Menu::count = 0;
 
 int main() {
-	//Menu menu1;
+    //Menu menu1;
 
-	Menu* menu = Menu::CreateMenu();
-	menu->SelectFunction();
-	//delete menu;
-	//menu = nullptr;
+    Menu *menu = Menu::CreateMenu();
+    menu->SelectFunction();
+    //delete menu;
+    //menu = nullptr;
 
-	system("pause");
-	return 0;
+    system("pause");
+    return 0;
 }

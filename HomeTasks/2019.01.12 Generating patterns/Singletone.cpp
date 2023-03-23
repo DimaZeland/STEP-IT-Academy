@@ -1,31 +1,34 @@
 #include <iostream>
+
 using namespace std;
+
 #include <string>
 #include <assert.h>
-class Logger
-{
+
+class Logger {
 //private:
 protected:
-	Logger(string login)
-	{
-		this->login = login;
-	}
-	string  login;
-	static Logger *logger;
-public:
-	static Logger* getInstance(string logname = "User")
-	{
-		if (logger == nullptr)
-			logger = new Logger(logname);
-		return logger;
+    Logger(string login) {
+        this->login = login;
+    }
 
-	}
-	string logName() const{ return login; }
-	void setLogName(string newLogin)
-	{
-		login = newLogin;
-	}
+    string login;
+    static Logger *logger;
+public:
+    static Logger *getInstance(string logname = "User") {
+        if (logger == nullptr)
+            logger = new Logger(logname);
+        return logger;
+
+    }
+
+    string logName() const { return login; }
+
+    void setLogName(string newLogin) {
+        login = newLogin;
+    }
 };
+
 Logger *Logger::logger = 0;
 
 //class LoggerDer : public Logger
@@ -37,21 +40,20 @@ Logger *Logger::logger = 0;
 //public:
 //
 //};
-int main()
-{
-	Logger * l = Logger::getInstance(); // створили екземпляр, login = "User"
-	cout << l->logName() << endl;;
-	
-	Logger * l1 = Logger::getInstance("Admin");// робимо спробу створити ще один екземпляр класу Logger з  login = "Admin"
-	cout << l1->logName() << endl; // бачимо, що не виходить, на екрані старий login ( "User")
-	
-	cout << "\nl : " << l << ",\tl1 : " << l1 << endl;
-	_ASSERT(l1 == l); // маскрос перевірить умову, якщо невірна, то буде помилка викоанання
+int main() {
+    Logger *l = Logger::getInstance(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, login = "User"
+    cout << l->logName() << endl;;
 
-	l1->setLogName ("Ivanyk"); // змінили логін ЄДИНОГО екземпляру
-	cout << l1->logName() << endl;
-	cout << l->logName() << endl;
+    Logger *l1 = Logger::getInstance(
+            "Admin");// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ Logger пїЅ  login = "Admin"
+    cout << l1->logName() << endl; // пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ login ( "User")
 
+    cout << "\nl : " << l << ",\tl1 : " << l1 << endl;
+    _ASSERT(l1 == l); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+
+    l1->setLogName("Ivanyk"); // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    cout << l1->logName() << endl;
+    cout << l->logName() << endl;
 
 
 }

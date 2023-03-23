@@ -1,415 +1,431 @@
 ﻿#include<iostream>
 #include<string>
 #include<ctime>
+
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!PROGRAM DESCRIPTION DISPLAYED IN LINES 415-481 OR IN A SEPARATE FILE Zeland.txt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 class Abstract { // class contains virtual functions that will be overloaded in derived classes
 public:
-	Abstract() {} // constructor
-	virtual ~Abstract() {} // virtual destructor, since the class has virtual functions
-	void CreateArr(int); // array filling method
-	inline bool Get_sort_result() { return sort_result; } // output of array result
-	virtual void SortArr() {};
-	void FindArr(int, int);
-	void DisplayTheValues();
+    Abstract() {} // constructor
+    virtual ~Abstract() {} // virtual destructor, since the class has virtual functions
+    void CreateArr(int); // array filling method
+    inline bool Get_sort_result() { return sort_result; } // output of array result
+    virtual void SortArr() {};
+
+    void FindArr(int, int);
+
+    void DisplayTheValues();
+
 protected: // class data members that are visible to derived classes, but not available to other program objects
-	bool sort_result = true; // flag for the result of selecting the sorting method
-	const int size = 10;
-	static int arr[10];
+    bool sort_result = true; // flag for the result of selecting the sorting method
+    const int size = 10;
+    static int arr[10];
 };
 
-class Bubble : public Abstract { // declaring a derived class to create an overloaded array sorting function (bubble method)
+class Bubble
+        : public Abstract { // declaring a derived class to create an overloaded array sorting function (bubble method)
 public:
-	Bubble() {} //constructor
-	 ~Bubble() {} // destructor
-	virtual void SortArr(); // overloading the base class sort method
+    Bubble() {} //constructor
+    ~Bubble() {} // destructor
+    virtual void SortArr(); // overloading the base class sort method
 };
 
-class Insert : public Abstract { // Declaring a derived class to create an overloaded array sorting function (insert method)
+class Insert
+        : public Abstract { // Declaring a derived class to create an overloaded array sorting function (insert method)
 public:
-	Insert() {} //constructor
-	 ~Insert() {} // destructor
-	virtual void SortArr(); // overloading the base class sort method
+    Insert() {} //constructor
+    ~Insert() {} // destructor
+    virtual void SortArr(); // overloading the base class sort method
 };
 
-class Selection : public Abstract { // declaring a derived class to create an overloaded array sorting function (selection method)
+class Selection
+        : public Abstract { // declaring a derived class to create an overloaded array sorting function (selection method)
 public:
-	Selection() {} //constructor
-	 ~Selection() {} // destructor
-	virtual void SortArr(); // overloading the base class sort method
+    Selection() {} //constructor
+    ~Selection() {} // destructor
+    virtual void SortArr(); // overloading the base class sort method
 };
 
-class Shaker : public Abstract { // declaring a derived class to create an overloaded array sorting function (shaker method)
+class Shaker
+        : public Abstract { // declaring a derived class to create an overloaded array sorting function (shaker method)
 public:
-	Shaker() {} //constructor
-	~Shaker() {} // destructor
-	virtual void SortArr(); // overloading the base class sort method
+    Shaker() {} //constructor
+    ~Shaker() {} // destructor
+    virtual void SortArr(); // overloading the base class sort method
 };
 
 void Abstract::CreateArr(int a) { // method definition of array filling
-	switch (a) {
-	case 1: {
-		for (int i = 0; i < size; ++i) { // random values from 0 to 10
-			arr[i] = rand() % 11;
-		}
-		sort_result = true;
-		break;
-	}
-	case 2: { // manually
-		std::cout << "\nTo manually fill the values of the elements of the array, enter ten integer values with a space and press <Enter>:\n";
-		for (int i = 0, k = 0; i < size; ++i) {
-			std::cin >> k;
-			arr[i] = k;
-		}
-		sort_result = true;
-		break;
-	}
-	default: {
-		std::cout << "\nThe method of filling the values of array elements is entered incorrectly.\n";
-		sort_result = false;
-		break;
-	}
-	}
+    switch (a) {
+        case 1: {
+            for (int i = 0; i < size; ++i) { // random values from 0 to 10
+                arr[i] = rand() % 11;
+            }
+            sort_result = true;
+            break;
+        }
+        case 2: { // manually
+            std::cout
+                    << "\nTo manually fill the values of the elements of the array, enter ten integer values with a space and press <Enter>:\n";
+            for (int i = 0, k = 0; i < size; ++i) {
+                std::cin >> k;
+                arr[i] = k;
+            }
+            sort_result = true;
+            break;
+        }
+        default: {
+            std::cout << "\nThe method of filling the values of array elements is entered incorrectly.\n";
+            sort_result = false;
+            break;
+        }
+    }
 }
 
 void Abstract::FindArr(int value, int type_of_parsing) { // Determine the search function of the selected item
-	int ater_line_search = 0;
-	switch (type_of_parsing) {
-	case 1: { // linear search
-		for (; ater_line_search < size && value != arr[ater_line_search]; ++ater_line_search); // just loop through the iterations of the loop before exiting the loop (without any conditions being met)
+    int ater_line_search = 0;
+    switch (type_of_parsing) {
+        case 1: { // linear search
+            for (; ater_line_search < size && value !=
+                                              arr[ater_line_search]; ++ater_line_search); // just loop through the iterations of the loop before exiting the loop (without any conditions being met)
 
-		value == arr[ater_line_search] ? std::cout << "\nResult of the method of linear search: " << ater_line_search << '\t' << arr[ater_line_search] << std::endl :
-			std::cout << "\nUsing the linear search method, no element with a specified value was found in the array\n";
-		break;
-	}
-	case 2: { // binary search
-		for (int start = 0, end = size, diapazon = size;;) {
-			if (arr[end - 1] == value) {
-				std::cout << "\nResult of the binary search method: " << end - 1 << '\t' << arr[end - 1] << std::endl;
-				break;
-			}
-			if (arr[start] == arr[end - 1]) {
-				std::cout << "\nUsing the binary search method, no element with a specified value was found in the array\n";
-				break;
-			}
-			diapazon /= 2;
-			if (end >= value)
-				end /= 2;
-			else {
-				start = end;
-				end = end + diapazon;
-			}
-		}
-		break;
-	}
-	default: { // passing an optional argument of sort type
-		std::cout << "\nThe method for finding the selected array element was entered incorrectly.\n";
-		break;
-	}
-	}
+            value == arr[ater_line_search] ? std::cout << "\nResult of the method of linear search: "
+                                                       << ater_line_search << '\t' << arr[ater_line_search] << std::endl
+                                           :
+            std::cout << "\nUsing the linear search method, no element with a specified value was found in the array\n";
+            break;
+        }
+        case 2: { // binary search
+            for (int start = 0, end = size, diapazon = size;;) {
+                if (arr[end - 1] == value) {
+                    std::cout << "\nResult of the binary search method: " << end - 1 << '\t' << arr[end - 1]
+                              << std::endl;
+                    break;
+                }
+                if (arr[start] == arr[end - 1]) {
+                    std::cout
+                            << "\nUsing the binary search method, no element with a specified value was found in the array\n";
+                    break;
+                }
+                diapazon /= 2;
+                if (end >= value)
+                    end /= 2;
+                else {
+                    start = end;
+                    end = end + diapazon;
+                }
+            }
+            break;
+        }
+        default: { // passing an optional argument of sort type
+            std::cout << "\nThe method for finding the selected array element was entered incorrectly.\n";
+            break;
+        }
+    }
 }
 
 void Abstract::DisplayTheValues() { // output of array elements
-	system("cls");
-	for (int i = 0; i < size; ++i)
-		std::cout << i << "\t" << arr[i] << std::endl;
+    system("cls");
+    for (int i = 0; i < size; ++i)
+        std::cout << i << "\t" << arr[i] << std::endl;
 }
 
-void Bubble::SortArr() { // overloading the virtual method of sorting an array of Abstract class by the method of sorting by a bubble
-	int choise = 0;
-	bool swap_is = false, choise_type_sort = true;
-	do
-	{
-		std::cout << "\nChoose the type of data sorting: 1 - ascending, 2 - descending: ";
-		std::cin >> choise;
-		switch (choise) {
-		case 1: {
-			for (int i = 0; i < size; ++i) { // sorting by arr [] by bubble method in ascending order
-				for (int m = 0; m < size - i - 1; ++m) {
-					if (arr[m] > arr[m + 1]) {
-						std::swap(arr[m], arr[m + 1]);
-						swap_is = true;
-					}
-				}
-				if (!swap_is)
-					break;
-			}
-			choise_type_sort = true;
-			break;
-		}
-		case 2: {
-			for (int i = 0; i < size; ++i) { // sorting [arr] by bubble method in descending order
-				for (int m = 0; m < size - i - 1; ++m) {
-					if (arr[m] < arr[m + 1]) {
-						std::swap(arr[m], arr[m + 1]);
-						swap_is = true;
-					}
-				}
-				if (!swap_is)
-					break;
-			}
-			choise_type_sort = true;
-			break;
-		}
-		default: {
-			std::cout << "\nSort type of array element values is entered incorrectly.\n";
-			choise_type_sort = false;
-			break;
-		}
-		}
-	} while (!choise_type_sort); // repeat the sort type selection until the correct type is entered
-	Abstract::DisplayTheValues();
+void
+Bubble::SortArr() { // overloading the virtual method of sorting an array of Abstract class by the method of sorting by a bubble
+    int choise = 0;
+    bool swap_is = false, choise_type_sort = true;
+    do {
+        std::cout << "\nChoose the type of data sorting: 1 - ascending, 2 - descending: ";
+        std::cin >> choise;
+        switch (choise) {
+            case 1: {
+                for (int i = 0; i < size; ++i) { // sorting by arr [] by bubble method in ascending order
+                    for (int m = 0; m < size - i - 1; ++m) {
+                        if (arr[m] > arr[m + 1]) {
+                            std::swap(arr[m], arr[m + 1]);
+                            swap_is = true;
+                        }
+                    }
+                    if (!swap_is)
+                        break;
+                }
+                choise_type_sort = true;
+                break;
+            }
+            case 2: {
+                for (int i = 0; i < size; ++i) { // sorting [arr] by bubble method in descending order
+                    for (int m = 0; m < size - i - 1; ++m) {
+                        if (arr[m] < arr[m + 1]) {
+                            std::swap(arr[m], arr[m + 1]);
+                            swap_is = true;
+                        }
+                    }
+                    if (!swap_is)
+                        break;
+                }
+                choise_type_sort = true;
+                break;
+            }
+            default: {
+                std::cout << "\nSort type of array element values is entered incorrectly.\n";
+                choise_type_sort = false;
+                break;
+            }
+        }
+    } while (!choise_type_sort); // repeat the sort type selection until the correct type is entered
+    Abstract::DisplayTheValues();
 }
 
 void Insert::SortArr() { // overloading the virtual method of sorting an array of Abstract class by insertion sorting
-	int choise = 0;
-	bool swap_is = false, choise_type_sort = true;
-	do
-	{
-		std::cout << "\nChoose the type of data sorting: 1 - ascending, 2 - descending: ";
-		std::cin >> choise;
-		switch (choise) {
-		case 1: {
-			for (int k = 0; k < size - 1; ++k) { // sort arr [] by insertion method in ascending order
-				for (int j = k; arr[j] > arr[j + 1] && j >= 0; --j)
-					std::swap(arr[j], arr[j + 1]);
-			}
-			choise_type_sort = true;
-			break;
-		}
-		case 2: {
-			for (int k = 0; k < size - 1; ++k) { // sort arr [] by insertion method in descending order
-				for (int j = k; arr[j] < arr[j + 1] && j >= 0; --j)
-					std::swap(arr[j], arr[j + 1]);
-			}
-			choise_type_sort = true;
-			break;
-		}
-		default: {
-			std::cout << "\nSort type of array element values is entered incorrectly.\n";
-			choise_type_sort = false;
-			break;
-		}
-		}
-	} while (!choise_type_sort); // repeat the sort type selection until the correct type is entered
-	Abstract::DisplayTheValues();
+    int choise = 0;
+    bool swap_is = false, choise_type_sort = true;
+    do {
+        std::cout << "\nChoose the type of data sorting: 1 - ascending, 2 - descending: ";
+        std::cin >> choise;
+        switch (choise) {
+            case 1: {
+                for (int k = 0; k < size - 1; ++k) { // sort arr [] by insertion method in ascending order
+                    for (int j = k; arr[j] > arr[j + 1] && j >= 0; --j)
+                        std::swap(arr[j], arr[j + 1]);
+                }
+                choise_type_sort = true;
+                break;
+            }
+            case 2: {
+                for (int k = 0; k < size - 1; ++k) { // sort arr [] by insertion method in descending order
+                    for (int j = k; arr[j] < arr[j + 1] && j >= 0; --j)
+                        std::swap(arr[j], arr[j + 1]);
+                }
+                choise_type_sort = true;
+                break;
+            }
+            default: {
+                std::cout << "\nSort type of array element values is entered incorrectly.\n";
+                choise_type_sort = false;
+                break;
+            }
+        }
+    } while (!choise_type_sort); // repeat the sort type selection until the correct type is entered
+    Abstract::DisplayTheValues();
 }
 
 void Selection::SortArr() { // overloading the virtual method of sorting an array of Abstract class by sorting by choice
-	int choise = 0;
-	bool swap_is = false, choise_type_sort = true;
-	do
-	{
-		std::cout << "\nChoose the type of data sorting: 1 - ascending, 2 - descending: ";
-		std::cin >> choise;
-		switch (choise) {
-		case 1: {
-			for (int k = 0; k < size - 1; ++k) { // сортировка arr[] методом выбора по возрастанию
-				for (int j = k + 1; j < size; ++j)
-					if (arr[k] > arr[j])
-						std::swap(arr[k], arr[j]);
-			}
-			choise_type_sort = true;
-			break;
-		}
-		case 2: {
-			for (int k = 0; k < size - 1; ++k) { // sort arr[] ascending selection method
-				for (int j = k + 1; j < size; ++j)
-					if (arr[k] < arr[j])
-						std::swap(arr[k], arr[j]);
-			}
-			choise_type_sort = true;
-			break;
-		}
-		default: {
-			std::cout << "\nSort type of array element values is entered incorrectly.\n";
-			choise_type_sort = false;
-			break;
-		}
-		}
-	} while (!choise_type_sort); // repeat the sort type selection until the correct type is entered
-	Abstract::DisplayTheValues();
+    int choise = 0;
+    bool swap_is = false, choise_type_sort = true;
+    do {
+        std::cout << "\nChoose the type of data sorting: 1 - ascending, 2 - descending: ";
+        std::cin >> choise;
+        switch (choise) {
+            case 1: {
+                for (int k = 0; k < size - 1; ++k) { // сортировка arr[] методом выбора по возрастанию
+                    for (int j = k + 1; j < size; ++j)
+                        if (arr[k] > arr[j])
+                            std::swap(arr[k], arr[j]);
+                }
+                choise_type_sort = true;
+                break;
+            }
+            case 2: {
+                for (int k = 0; k < size - 1; ++k) { // sort arr[] ascending selection method
+                    for (int j = k + 1; j < size; ++j)
+                        if (arr[k] < arr[j])
+                            std::swap(arr[k], arr[j]);
+                }
+                choise_type_sort = true;
+                break;
+            }
+            default: {
+                std::cout << "\nSort type of array element values is entered incorrectly.\n";
+                choise_type_sort = false;
+                break;
+            }
+        }
+    } while (!choise_type_sort); // repeat the sort type selection until the correct type is entered
+    Abstract::DisplayTheValues();
 }
 
 void Shaker::SortArr() { // overloading the virtual method for sorting an Abstract class array by shaker sorting
-	int choise = 0;
-	bool swap_is = false, choise_type_sort = true;
-	do
-	{
-		std::cout << "\nChoose the type of data sorting: 1 - ascending, 2 - descending: ";
-		std::cin >> choise;
-		switch (choise) {
-		case 1: {
-			for (int i = 0; i < size; ++i) { // sort arr[] shaker method ascending
-				for (int m = 0; m < size - i - 1; ++m) {
-					if (arr[m] > arr[m + 1]) {
-						std::swap(arr[m], arr[m + 1]);
-						swap_is = true;
-					}
-				}
-				for (int m = size-i; m > 0 - 1; --m) {
-					if (arr[m] < arr[m - 1]) {
-						std::swap(arr[m], arr[m - 1]);
-						swap_is = true;
-					}
-				}
-				if (!swap_is)
-					break;
-			}
-			choise_type_sort = true;
-			break;
-		}
-		case 2: {
-			for (int i = 0; i < size; ++i) { // sort arr[] by shaker method in descending order
-				for (int m = 0; m < size - i - 1; ++m) {
-					if (arr[m] < arr[m + 1]) {
-						std::swap(arr[m], arr[m + 1]);
-						swap_is = true;
-					}
-				}
-				for (int m = size - i; m > 0 - 1; --m) {
-					if (arr[m] > arr[m - 1]) {
-						std::swap(arr[m], arr[m - 1]);
-						swap_is = true;
-					}
-				}
-				if (!swap_is)
-					break;
-			}
-			choise_type_sort = true;
-			break;
-		}
-		default: {
-			std::cout << "\nSort type of array element values is entered incorrectly.\n";
-			choise_type_sort = false;
-			break;
-		}
-		}
-	} while (!choise_type_sort); // repeat the sort type selection until the correct type is entered
-	Abstract::DisplayTheValues();
+    int choise = 0;
+    bool swap_is = false, choise_type_sort = true;
+    do {
+        std::cout << "\nChoose the type of data sorting: 1 - ascending, 2 - descending: ";
+        std::cin >> choise;
+        switch (choise) {
+            case 1: {
+                for (int i = 0; i < size; ++i) { // sort arr[] shaker method ascending
+                    for (int m = 0; m < size - i - 1; ++m) {
+                        if (arr[m] > arr[m + 1]) {
+                            std::swap(arr[m], arr[m + 1]);
+                            swap_is = true;
+                        }
+                    }
+                    for (int m = size - i; m > 0 - 1; --m) {
+                        if (arr[m] < arr[m - 1]) {
+                            std::swap(arr[m], arr[m - 1]);
+                            swap_is = true;
+                        }
+                    }
+                    if (!swap_is)
+                        break;
+                }
+                choise_type_sort = true;
+                break;
+            }
+            case 2: {
+                for (int i = 0; i < size; ++i) { // sort arr[] by shaker method in descending order
+                    for (int m = 0; m < size - i - 1; ++m) {
+                        if (arr[m] < arr[m + 1]) {
+                            std::swap(arr[m], arr[m + 1]);
+                            swap_is = true;
+                        }
+                    }
+                    for (int m = size - i; m > 0 - 1; --m) {
+                        if (arr[m] > arr[m - 1]) {
+                            std::swap(arr[m], arr[m - 1]);
+                            swap_is = true;
+                        }
+                    }
+                    if (!swap_is)
+                        break;
+                }
+                choise_type_sort = true;
+                break;
+            }
+            default: {
+                std::cout << "\nSort type of array element values is entered incorrectly.\n";
+                choise_type_sort = false;
+                break;
+            }
+        }
+    } while (!choise_type_sort); // repeat the sort type selection until the correct type is entered
+    Abstract::DisplayTheValues();
 }
 
 int Abstract::arr[10] = {}; // definition of a static array member of the Abstract class (which is not a member of an array of an individual class object, but a static array,
 // accessible for use by the methods of the base and derived classes without specifying a specific object of the base or derived class for accessing the array
 
 int main() {
-	setlocale(LC_ALL, "RUS");
-	srand(time(0));
-	int choise = 0, global_choise = 0, number = 0;
-	bool *type_of_sort = new bool(true), *vosvrat = new bool(false), *sort_is = new bool(false); // Create a pointer to a variable in the heap to track the selection of the sorting method
-mitka:
-	Abstract * rpointer = new Abstract; // create a pointer to an object of class Abstract and assign it a cell address in the dynamic memory area (heap)
-	do
-	{
-		std::cout << "\nChoose how to fill the array: 1 - random values, 2 - manually: ";
-		std::cin >> choise;
-		rpointer->CreateArr(choise); // call function to select the method of filling the array through a pointer to the object Abstract
-		*sort_is = false;
-	} while (!rpointer->Get_sort_result()); // Run the loop until you enter the correct way to fill the array
+    setlocale(LC_ALL, "RUS");
+    srand(time(0));
+    int choise = 0, global_choise = 0, number = 0;
+    bool *type_of_sort = new bool(true), *vosvrat = new bool(false), *sort_is = new bool(
+            false); // Create a pointer to a variable in the heap to track the selection of the sorting method
+    mitka:
+    Abstract *rpointer = new Abstract; // create a pointer to an object of class Abstract and assign it a cell address in the dynamic memory area (heap)
+    do {
+        std::cout << "\nChoose how to fill the array: 1 - random values, 2 - manually: ";
+        std::cin >> choise;
+        rpointer->CreateArr(
+                choise); // call function to select the method of filling the array through a pointer to the object Abstract
+        *sort_is = false;
+    } while (!rpointer->Get_sort_result()); // Run the loop until you enter the correct way to fill the array
 
-	rpointer->DisplayTheValues(); // output of array elements
+    rpointer->DisplayTheValues(); // output of array elements
 
-	delete rpointer; // Remove an Abstract object from the heap (to avoid memory leaks from the heap)
-	rpointer = 0; // zeroing the address of a pointer to an object of class Abstract
+    delete rpointer; // Remove an Abstract object from the heap (to avoid memory leaks from the heap)
+    rpointer = 0; // zeroing the address of a pointer to an object of class Abstract
 
-	do
-	{
-	sort_next:
-		std::cout << "\nSelect the type of task to be performed: 1 - Sort, 2 - Search, 3 - Back: ";
-		std::cin >> global_choise;
+    do {
+        sort_next:
+        std::cout << "\nSelect the type of task to be performed: 1 - Sort, 2 - Search, 3 - Back: ";
+        std::cin >> global_choise;
 
-		switch (global_choise) {
-		case 1: {
-			do // -------------------------SORT----------------------------------
-			{
-				std::cout << "\nSelect the sorting type for the elements of the array: 1 - bubble, 2 - insert, 3 - select, 4 - shaker, 5 - return to the previous menu: ";
-				std::cin >> choise;
-				*type_of_sort = true;
-				switch (choise) {
-				case 1: {
-					rpointer = new Bubble;
-					rpointer->SortArr();
-					break;
-				}
-				case 2: {
-					rpointer = new Insert;
-					rpointer->SortArr();
-					break;
-				}
-				case 3: {
-					rpointer = new Selection;
-					rpointer->SortArr();
-					break;
-				}
-				case 4: {
-					rpointer = new Shaker;
-					rpointer->SortArr();
-					break;
-				}
-				case 5: {
-					*vosvrat = true;
-					break;
-				}
-				default: {
-					std::cout << "\nSort type of array element values is entered incorrectly.\n";
-					*type_of_sort = false;
-					break;
-				}
-				}
-			} while (!*type_of_sort && * vosvrat == false); // Perform a loop until the correct method for sorting the array is entered 
-			*sort_is = true;
-			break;
-		}
-		case 2: {
-			if (*sort_is == false) {
-				std::cout << "\nThe value of the elements of the array is not sorted. Please pre-sort the array before searching for the selected item.\n";
-				goto sort_next;
-			}
-			// --------------------------------------SEARCH
-			std::cout << "\nEnter an integer value to search for an array element: ";
-			std::cin >> number;
+        switch (global_choise) {
+            case 1: {
+                do // -------------------------SORT----------------------------------
+                {
+                    std::cout
+                            << "\nSelect the sorting type for the elements of the array: 1 - bubble, 2 - insert, 3 - select, 4 - shaker, 5 - return to the previous menu: ";
+                    std::cin >> choise;
+                    *type_of_sort = true;
+                    switch (choise) {
+                        case 1: {
+                            rpointer = new Bubble;
+                            rpointer->SortArr();
+                            break;
+                        }
+                        case 2: {
+                            rpointer = new Insert;
+                            rpointer->SortArr();
+                            break;
+                        }
+                        case 3: {
+                            rpointer = new Selection;
+                            rpointer->SortArr();
+                            break;
+                        }
+                        case 4: {
+                            rpointer = new Shaker;
+                            rpointer->SortArr();
+                            break;
+                        }
+                        case 5: {
+                            *vosvrat = true;
+                            break;
+                        }
+                        default: {
+                            std::cout << "\nSort type of array element values is entered incorrectly.\n";
+                            *type_of_sort = false;
+                            break;
+                        }
+                    }
+                } while (!*type_of_sort && *vosvrat ==
+                                           false); // Perform a loop until the correct method for sorting the array is entered
+                *sort_is = true;
+                break;
+            }
+            case 2: {
+                if (*sort_is == false) {
+                    std::cout
+                            << "\nThe value of the elements of the array is not sorted. Please pre-sort the array before searching for the selected item.\n";
+                    goto sort_next;
+                }
+                // --------------------------------------SEARCH
+                std::cout << "\nEnter an integer value to search for an array element: ";
+                std::cin >> number;
 
-			do
-			{
-				std::cout << "\nSelect the method of searching for the element of the array: 1 - linear, 2 - binary: ";
-				std::cin >> choise;
-				switch (choise) {
-				case 1: case 2: {
-					rpointer->FindArr(number, choise);
-					*type_of_sort = true;
-					break;
-				}
-				default: {
-					std::cout << "\nThe method for finding the selected array element was entered incorrectly.\n";
-					*type_of_sort = false;
-					break;
-				}
-				}
-			} while (!*type_of_sort);
-			break;
-		}
-		case 3: {
-			goto mitka;
-			break;
-		}
-		default: {
-			std::cout << "\nThe entered selection does not match the menu options\n";
-			break;
-		}
-		}
-	} while (global_choise != 1 || global_choise != 2 || global_choise != 3);
+                do {
+                    std::cout
+                            << "\nSelect the method of searching for the element of the array: 1 - linear, 2 - binary: ";
+                    std::cin >> choise;
+                    switch (choise) {
+                        case 1:
+                        case 2: {
+                            rpointer->FindArr(number, choise);
+                            *type_of_sort = true;
+                            break;
+                        }
+                        default: {
+                            std::cout
+                                    << "\nThe method for finding the selected array element was entered incorrectly.\n";
+                            *type_of_sort = false;
+                            break;
+                        }
+                    }
+                } while (!*type_of_sort);
+                break;
+            }
+            case 3: {
+                goto mitka;
+                break;
+            }
+            default: {
+                std::cout << "\nThe entered selection does not match the menu options\n";
+                break;
+            }
+        }
+    } while (global_choise != 1 || global_choise != 2 || global_choise != 3);
 
-	// delete objects and variables allocated in dynamic memory (heap) and nullify the addresses of pointers to objects and variables in the dynamic memory
-	delete rpointer;
-	rpointer = 0;
-	delete type_of_sort;
-	type_of_sort = 0;
-	delete vosvrat;
-	vosvrat = 0;
-	delete sort_is;
-	sort_is = 0;
+    // delete objects and variables allocated in dynamic memory (heap) and nullify the addresses of pointers to objects and variables in the dynamic memory
+    delete rpointer;
+    rpointer = 0;
+    delete type_of_sort;
+    type_of_sort = 0;
+    delete vosvrat;
+    vosvrat = 0;
+    delete sort_is;
+    sort_is = 0;
 
-	system("pause");
-	return 0;
+    system("pause");
+    return 0;
 }
 
 /*

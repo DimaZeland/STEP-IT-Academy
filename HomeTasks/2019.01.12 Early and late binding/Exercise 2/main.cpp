@@ -3,11 +3,11 @@
 #include"Unit.h"
 
 int main() {
-	srand(time(NULL));
-	Game game;
-	game.GameCourse();
-	
-	system("pause");
+    srand(time(NULL));
+    Game game;
+    game.GameCourse();
 
-	return 0;
+    system("pause");
+
+    return 0;
 }
