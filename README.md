@@ -2,6 +2,11 @@
 
 👨🏻‍💻 Solutions to various tasks in C++ programming from [STEP IT Academy](https://itstep.org/)
 
+### ⚙️ The project uses:
+
+- [C++17](https://en.cppreference.com/w/cpp/17)
+- [C++ Standard Template Library](https://en.cppreference.com/w/cpp/container)
+
 ## 📚 Contents
 
 ### [1️⃣ Class works](https://github.com/DimaZeland/STEP-IT-Academy/tree/master/ClassWorks)
